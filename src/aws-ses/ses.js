@@ -17,7 +17,7 @@ export default async function sendEmail(formData) {
     },
     Message: {
       Subject: {
-        Data: `New message from ${name}`,
+        Data: `Contato novo recebido ${name}`,
       },
       Body: {
         Text: {
