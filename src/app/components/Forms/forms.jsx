@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import sendEmail from '../../../aws-ses/ses';
+import sendEmail from '../../../aws/ses';
 import "./forms.scss";
 
 export default function Form() {
@@ -52,7 +52,7 @@ export default function Form() {
         placeholder="Qual o seu cargo na empresa"name="cargo"value={formData.cargo} onChange={handleChange}
       />   
 
-       <select name="faturamento"   onChange={handleChange}>
+       <select name="faturamento" onChange={handleChange}>
         <option value="">--Escolha quanto deseja faturar--</option>
         <option value="R$15 a 30 mil">R$15 a 30 mil</option>
         <option value="R$30 a R$60 mil">R$30 a R$60 mil</option>

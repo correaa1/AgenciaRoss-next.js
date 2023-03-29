@@ -1,13 +1,17 @@
-import AWS from 'aws-sdk';
+var AWS = require('aws-sdk');
+
+require("dotenv").config()
 
 export default async function sendEmail(formData) {
-  // Configure the AWS SDK
-  const ses = new AWS.SES({
-    accessKeyId: 'AKIAXDUQFXWUOTXN5YPM',
-    secretAccessKey: 'SOJYALV4mRWtX69kl2To/Tv3VTCKFIjUAfxF2dZ7',
-    region: 'us-east-1', // Replace with the AWS region you want to use
+  
+ 
+  AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+  
   });
 
+  const ses = new AWS.SES({ region:process.env.AWS_REGION, });
   // Create the email message
   const { name, email, telefone,instagram,cargo, faturamento } = formData;
   const params = {
@@ -30,4 +34,5 @@ export default async function sendEmail(formData) {
   // Send the email using SES
   const result = await ses.sendEmail(params).promise();
   console.log(result);
+
 }

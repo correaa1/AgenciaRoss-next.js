@@ -8,7 +8,7 @@ import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
 
-import sentEmail from '../aws-ses/ses.js'
+import sentEmail from '../aws/ses.js'
 export default function Home() {
   const ref = useRef(null)
 function handleClick (){
