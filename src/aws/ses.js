@@ -7,18 +7,18 @@ export default async function sendEmail(formData) {
   
  
   AWS.config.update({
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    accessKeyId: process.env.NEXT_PUBLIC_AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY
   
   });
 
-  const ses = new AWS.SES({ region:process.env.AWS_REGION, });
+  const ses = new AWS.SES({ region:process.env.NEXT_PUBLIC_AWS_REGION, });
   // Create the email message
   const { name, email, telefone,instagram,cargo, faturamento } = formData;
   const params = {
-    Source: process.env.SES_EMAIL,
+    Source: process.env.NEXT_PUBLIC_SES_EMAIL,
     Destination: {
-      ToAddresses: [process.env.SES_EMAIL],
+      ToAddresses: [process.env.NEXT_PUBLIC_SES_EMAIL],
     },
     Message: {
       Subject: {
