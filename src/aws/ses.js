@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk');
 
-require("dotenv").config()
+
 
 export default async function sendEmail(formData) {
   
@@ -15,9 +15,9 @@ export default async function sendEmail(formData) {
   // Create the email message
   const { name, email, telefone,instagram,cargo, faturamento } = formData;
   const params = {
-    Source: 'agencia.ross2023@gmail.com',
+    Source: process.env.SES_EMAIL,
     Destination: {
-      ToAddresses: ['agencia.ross2023@gmail.com'],
+      ToAddresses: [process.env.SES_EMAIL],
     },
     Message: {
       Subject: {
@@ -32,7 +32,12 @@ export default async function sendEmail(formData) {
   };
 
   // Send the email using SES
-  const result = await ses.sendEmail(params).promise();
-  console.log(result);
+  ses.sendEmail(params, function (err, data) {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('Email sent:', data);
+    }
+  }); 
 
 }
