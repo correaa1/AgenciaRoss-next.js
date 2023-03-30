@@ -22,7 +22,7 @@ export default async function sendEmail(formData) {
     },
     Message: {
       Subject: {
-        Data: `Contato novo recebido ${name}`,
+        Data: `Brotou um leadzin:  ${name}`,
       },
       Body: {
         Text: {

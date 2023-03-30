@@ -7,7 +7,7 @@ import Form from './components/Forms/forms.jsx'
 import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
-
+import weed from '../../assets/weed.png'
 import sentEmail from '../aws/ses.js'
 export default function Home() {
   const ref = useRef(null)
@@ -146,34 +146,34 @@ function handleClick (){
 			
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="350" alt="" />
-		</div>
-		<div clclassNameass="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
+			<Image src={weed}height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"  height="100" width="350" alt="" />
+			<Image src={weed} height="100" width="350" alt="" />
+		</div>
+		<div className="slide2">
+			<Image src={weed}  height="100" width="350" alt="" />
 		</div>
 	</div>
 </div>

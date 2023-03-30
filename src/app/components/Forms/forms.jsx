@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import sendEmail from '../../../aws/ses';
 import "./forms.scss";
+import Swal from 'sweetalert2'
 
 export default function Form() {
   const [formData, setFormData] = useState({ name: '', email: '', telefone: '', cargo:'', instagram:'', faturamento:'' });
+  const Swal = require('sweetalert2')
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -12,7 +14,14 @@ export default function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await sendEmail(formData);
-    alert('Contato enviado com sucesso! Entraremos em contato o mais breve.');
+    Swal.fire({
+      title: 'Contato enviado com sucesso!',
+      text: 'Um dos nossos especialistas entrara em contato em breve.',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    })
+
+    
     setFormData({ name: '', email: '', telefone: '',cargo:'', instagram:'',faturamento:'' });
   };  
 

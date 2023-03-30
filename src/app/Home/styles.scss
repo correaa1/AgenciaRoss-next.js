@@ -48,8 +48,8 @@ width: 100%;
       background-image: url('../../../assets/logoRoss.png');
       background-size: cover;
       border-radius: 10px;
-      height:auto;
-      width: 180px;
+      height:300px;
+      width: 300px;
       position: relative;
       padding: 75px;                            
     }
@@ -595,11 +595,83 @@ h3.textTime{
   border-radius: 5px;
 }
   
- 
+ //CARD
+ div.card {
+  background: #191c29;
+  width:100%;
+  padding-top: 50px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+  font-family: cursive;
+  height: 50vh;
+  width: 400px;
+}
+
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+.card:hover:before, .card:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5996a7, #4860a5 43%, #6c40ad);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 4.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.6);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 0.3;
+  transition: opacity 0.5s;
+  animation: spin 4.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
   
 //SLIDE
   @mixin white-gradient {
-    background: linear-gradient(to right,  rgb(117, 114, 122) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,  rgb(117, 114, 122) 0%,rgba(196, 188, 188, 0) 100%);
   }
   $animationSpeed: 60s;
   
@@ -619,16 +691,15 @@ h3.textTime{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
-    margin-right:250px ;
-    margin-left:225px ;
+  
     border-radius: 5px;
     
     .slide-track {
       animation: scroll $animationSpeed  ease-in-out infinite ;
-      animation-direction:alternate ;
+      animation-direction:normal ;
       animation-delay:2s;
       width: 100%;
-      padding: 5px;
+      padding: 30px;
       padding-left: 100px
       ;
     }
@@ -637,14 +708,14 @@ h3.textTime{
 
   //SLIDE2
   @mixin white-gradient {
-    background: linear-gradient(to right,  rgb(117, 114, 122) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,  rgb(117, 114, 122) 0%,rgba(223, 214, 214, 0) 100%);
   }
   $animationSpeed: 20s;
   
   // Animation
   @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 7))}
+    100% { transform: translateX(calc(-200px * 7))}
   }
   
   
@@ -657,7 +728,7 @@ h3.textTime{
     width: 100%;
     position: relative;
   padding-top: 80px;
-    
+
     &::before,
     &::after {
       @include white-gradient;
@@ -680,15 +751,16 @@ h3.textTime{
       left: 0;
       top: 0;
       top: 50vh;
+      width: 100%;
     }
     
     .slide-track2 {
-      animation: scroll $animationSpeed ease-in-out;
+      animation: scroll $animationSpeed ease-in-out infinite;
       animation-delay:1s;
       display: flex;
       width: 100%;
-      animation-iteration-count: infinite;
-      animation-direction:alternate-reverse ;
+    animation-iteration-count: infinite;
+      animation-direction: normal;
     }
     
     .slide2 {
@@ -953,78 +1025,7 @@ text-align: center;
       --card-height: 65vh;
       --card-width: calc(var(--card-height) / 1.5);
     }
-    div.card {
-      background: #191c29;
-      width:100%;
-      padding-top: 50px;
-      position: relative;
-      border-radius: 6px;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-      display: flex;
-      font-size: 1.5em;
-      color: rgb(88 199 250 / 0%);
-      cursor: pointer;
-      font-family: cursive;
-      height: 50vh;
-      width: 400px;
-    }
     
-    .card:hover {
-      color: rgb(88 199 250 / 100%);
-      transition: color 1s;
-    }
-    .card:hover:before, .card:hover:after {
-      animation: none;
-      opacity: 0;
-    }
-    
-    
-    .card::before {
-      content: "";
-      width: 104%;
-      height: 102%;
-      border-radius: 8px;
-      background-image: linear-gradient(
-        var(--rotate)
-        , #5ddcff, #3c67e3 43%, #4e00c2);
-        position: absolute;
-        z-index: -1;
-        top: -1%;
-        left: -2%;
-        animation: spin 2.5s linear infinite;
-    }
-    
-    .card::after {
-      position: absolute;
-      content: "";
-      top: calc(var(--card-height) / 6);
-      left: 0;
-      right: 0;
-      z-index: -1;
-      height: 100%;
-      width: 100%;
-      margin: 0 auto;
-      transform: scale(0.8);
-      filter: blur(calc(var(--card-height) / 6));
-      background-image: linear-gradient(
-        var(--rotate)
-        , #5ddcff, #3c67e3 43%, #4e00c2);
-        opacity: 1;
-      transition: opacity .5s;
-      animation: spin 2.5s linear infinite;
-    }
-    
-    @keyframes spin {
-      0% {
-        --rotate: 0deg;
-      }
-      100% {
-        --rotate: 360deg;
-      }
-    }
     
     a {
       color: #212534;
