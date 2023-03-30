@@ -10,6 +10,7 @@
 
 # next.js
 /.next/
+.next.config.js
 /out/
 
 # production
@@ -31,4 +32,3 @@ yarn-error.log*
 # vercel
 .vercel
 
-.next.config.js
