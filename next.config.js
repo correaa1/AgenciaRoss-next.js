@@ -4,7 +4,6 @@ require('dotenv').config()
 const nextConfig = {
   experimental: {
     appDir: true,
-  
   },
   env: {      
   AWS_ACCESS_KEY_ID:'AKIAXDUQFXWUIOQM5SWP',      
