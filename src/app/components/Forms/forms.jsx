@@ -23,7 +23,7 @@ export default function Form() {
       <h3 className="textForms">PREENCHA O FORMULÁRIO ABAIXO</h3>
       </div>
       <div className="containerInput">
-      <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
+      <input placeholder='Nome e sobrenome' type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
       <input
         placeholder="Seu melhor e-mail "
         type="email"

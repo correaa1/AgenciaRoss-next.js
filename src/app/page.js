@@ -20,12 +20,12 @@ function handleClick (){
   return(
 
   <div id='container'>
-      <div class='imagem'>
+      <div className='imagem'>
       
    {/*container abaixo faz a transição do texta inicial.*/}
-    <div class="sp-container">
+    <div className="sp-container">
 	<div  class="sp-content">       
-        <h2 class="frame-5">
+        <h2 className="frame-5">
        
 			<span>
         <div className='imgRossInicio'/>
@@ -74,8 +74,8 @@ function handleClick (){
    
    {/*Carrousel da equipe*/}
           <div class="slider">
-	<div class="slide-track">
-	<div class="card">
+	<div className="slide-track">
+	<div className="card">
   <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <h3 className='textTime'>MATHEUS ROCHA</h3>
   <div className="imgEquipeR"></div>
@@ -88,39 +88,39 @@ function handleClick (){
   </div>
     </div>
     </div>  
-    <div class="slide-track">
+    <div className="slide-track">
 		
-    <div class="card">
+    <div className="card">
 <h4 className='textTime'>Diretor Audio Visual</h4>
   <h3 className='textTime'>GIAN GABOARDI</h3>
   <div className="imgEquipeJ"></div>
     </div>
     </div>
 
-    <div class="slide-track">
-		<div class="card">
+    <div className="slide-track">
+		<div className="card">
 <h4 className='textTime'>Head Social Midia e Designer</h4>
   <h3 className='textTime'>MARIA EDUARDA</h3>
   <div className="imgEquipeE"></div>
     </div>
     </div>
-    <div class="slide-track"> 
-    <div class="card">
+    <div className="slide-track"> 
+    <div className="card">
 <h4 className='textTime'>Gestor de tráfego mirin</h4>
   <h3 className='textTime'>MARCOS JOSÉ</h3>
   <div className="imgEquipeM"></div>
     </div>
     </div>
 
-    <div class="slide-track">
-    <div class="card">
+    <div className="slide-track">
+    <div className="card">
 <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <h3 className='textTime'>MATHEUS ROCHA</h3>
   <div className="imgEquipeR"></div>
     </div>
     </div>
-    <div class="slide-track"> 
-    <div class="card">
+    <div className="slide-track"> 
+    <div className="card">
 <h4 className='textTime'>CEO – Head Comercial</h4>
   <h3 className='textTime'>GERSON GONÇALVES</h3>
   <div className="imgEquipeG"></div>
@@ -131,49 +131,49 @@ function handleClick (){
 </div>
     </div>
     {/*Carrosel banner*/ }
- <div class="slider2">
-	<div class="slide-track2">
-		<div class="slide2">
+ <div className="slider2">
+	<div className="slide-track2">
+		<div className="slide2">
 			
 		</div>
-		<div class="slide2">
+		<div className="slide2">
 			
 		</div>
-		<div class="slide2">
+		<div className="slide2">
 			
 		</div>
-		<div class="slide2">
+		<div className="slide2">
 			
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="350" alt="" />
+		<div clclassNameass="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="350" alt="" />
 		</div>
-		<div class="slide2">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"  height="100" width="350" alt="" />
+		<div className="slide2">
+			<Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"  height="100" width="350" alt="" />
 		</div>
 	</div>
 </div>
