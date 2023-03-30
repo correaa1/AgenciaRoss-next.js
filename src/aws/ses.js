@@ -1,5 +1,6 @@
 var AWS = require('aws-sdk');
 
+require('dotenv').config()
 
 
 export default async function sendEmail(formData) {
