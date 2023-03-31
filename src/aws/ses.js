@@ -26,7 +26,12 @@ export default async function sendEmail(formData) {
       },
       Body: {
         Text: {
-          Data: `Nome: ${name}\nEmail: ${email}\nCargo: ${cargo}\nWhatsWapp: ${telefone}\nInstagram: ${instagram} \nfaturamento: ${faturamento}`,
+          Data: `Nome: ${name}
+          \nEmail: ${email}    
+          \nCargo: ${cargo}         
+          \nWhatsWapp: ${telefone}
+          \nInstagram: ${instagram}
+          \nfaturamento: ${faturamento}`,
         },
       },
     },

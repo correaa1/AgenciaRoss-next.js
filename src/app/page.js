@@ -24,7 +24,7 @@ function handleClick (){
       
    {/*container abaixo faz a transição do texta inicial.*/}
     <div className="sp-container">
-	<div  class="sp-content">       
+	<div  className="sp-content">       
         <h2 className="frame-5">
        
 			<span>
@@ -80,8 +80,8 @@ function handleClick (){
   <h3 className='textTime'>MATHEUS ROCHA</h3>
   <div className="imgEquipeR"></div>
 </div></div>
-<div class="slide-track">
-<div class="card">
+<div className="slide-track">
+<div className="card">
 <h4 className='textTime'>CEO – Head Comercial</h4>
   <h3 className='textTime'>GERSON GONÇALVES</h3>
   <div className="imgEquipeG">
@@ -178,6 +178,20 @@ function handleClick (){
 	</div>
 </div>
         </div>
+
+      <div className='containerTitle3-4'>
+      <h2>Esses clientes decidiram investir em marketing 
+        <span> digital conosco:  </span></h2>
+        </div>
+       <div   className='container3-4'> <div className='containerText3-4'>
+      <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
+      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
+         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
+         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4></div>
+         <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
+         </div>
+         </div> 
+
   <div className='container4'>
     <h2 className='text4'>Como funciona?</h2></div>
     <div className='container5'>
