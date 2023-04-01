@@ -7,6 +7,17 @@ import Form from './components/Forms/forms.jsx'
 import star from'../../assets/star.png'
 import prancheta from'../../assets/prancheta.png'
 import complet from'../../assets/complet.png'
+import img1 from '../../assets/img1.png'
+import img2 from '../../assets/img2.png'
+import img33 from '../../assets/img33.png'
+import img4 from '../../assets/img4.png'
+import img6 from '../../assets/img6.png'
+import img7 from '../../assets/img7.png'
+import img8 from '../../assets/img8.png'
+import img9 from '../../assets/img9.png'
+import img10 from '../../assets/img10.png'
+import img11 from '../../assets/img11.png'
+import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
 import sentEmail from '../aws/ses.js'
 export default function Home() {
@@ -146,34 +157,37 @@ function handleClick (){
 			
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img1} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img2} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img33} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img4} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img6} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img7} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed}height="100" width="350" alt="" />
+			<Image src={img8}height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img9} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed} height="100" width="350" alt="" />
+			<Image src={img10} height="200" width="200" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={weed}  height="100" width="350" alt="" />
+			<Image src={img11}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img12}  height="200" width="200" alt="" />
 		</div>
 	</div>
 </div>
@@ -183,11 +197,18 @@ function handleClick (){
       <h2>Esses clientes decidiram investir em marketing 
         <span> digital conosco:  </span></h2>
         </div>
-       <div   className='container3-4'> <div className='containerText3-4'>
+       <div   className='container3-4'> 
+       <div className='containerText3-4'>
       <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
          capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
-         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4></div>
+         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
+         <span/>
+         <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
+      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
+         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
+         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
+         </div>
          <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
          </div>
          </div> 

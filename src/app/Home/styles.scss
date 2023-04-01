@@ -493,7 +493,8 @@ h2.text2Main{
 }
 
 .container3{
-  background-color:#1c252b;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(46,30,59,0.6755077030812324) 42%, rgba(2,0,36,1) 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -684,7 +685,7 @@ h3.textTime{
   
   // Styling
   .slider {
-    background: #1c252b;
+
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     overflow:hidden;
     position: relative;
@@ -710,18 +711,18 @@ h3.textTime{
   @mixin white-gradient {
     background: linear-gradient(to right,  rgb(117, 114, 122) 0%,rgba(223, 214, 214, 0) 100%);
   }
-  $animationSpeed: 20s;
+  $animationSpeed: 5s;
   
   // Animation
   @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-200px * 7))}
+    100% { transform: translateX(calc(-20px * 6))}
   }
   
   
   // Styling
   .slider2 {
-    background: #1c252b;
+   
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     overflow:hidden;
     position: relative;
@@ -760,7 +761,7 @@ h3.textTime{
       display: flex;
       width: 100%;
     animation-iteration-count: infinite;
-      animation-direction: normal;
+      animation-direction: reverse;
     }
     
     .slide2 {
@@ -775,19 +776,22 @@ h3.textTime{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+    background: rgb(2,0,36);
+   
   }
   .containerTitle3-4 h2{
     font-family: proxima-nova, sans-serif;
-    color:#000000
+    color:aliceblue
   }
   .containerTitle3-4 h3{
     font-family: proxima-nova, sans-serif;
-    color:#000000
+    color:aliceblue
+
   }
   .containerTitle3-4 h4{
     font-family: proxima-nova, sans-serif;
-    color:#000000
+    color:aliceblue
+
   }
   .container3-4{
     display:flex;
@@ -796,7 +800,10 @@ h3.textTime{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding:0px 350px 0px;
+    padding:30px 350px 30px;
+    background: rgba(2,0,36,1);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 100%);
+    
   }
   .containerText3-4{
     width: 100%;
@@ -815,7 +822,8 @@ h3.textTime{
 .container4{
     width: 100%;
     margin: auto;
-    background-color: #1f2e3a;
+    background: rgba(2,0,36,1);
+    background: linear-gradient(180deg,rgba(2,0,36,1) 20%,rgba(39, 27, 49, 0.676) 100%);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -835,7 +843,8 @@ h3.textTime{
     .container5{
       width: 100%;
       padding: 100px;
-      background-color: #1f2e3a;
+      background: rgba(39, 27, 49, 0.676) ;
+      background: linear-gradient(180deg,rgba(39, 27, 49, 0.676)100%,);
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -876,7 +885,9 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: #1c252b;
+background: rgba(46,30,59,0.6755077030812324);
+background: linear-gradient(180deg,rgba(39, 27, 49, 0.676) 0%,
+rgba(2,0,36,1) 90%);
 }
 
 .text6{
@@ -895,7 +906,9 @@ background-color: #1c252b;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1c252b;
+  background: rgba(2,0,36,1) ;
+  background: linear-gradient(180deg, rgba(2,0,36,1)  0%,
+ rgba(2,0,36,1) 100%);
   padding: 120px;
   }
 
@@ -928,7 +941,9 @@ background-color: #1c252b;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1c252b;
+    background: rgba(2,0,36,1);
+  background: linear-gradient(180deg,rgba(2,0,36,1) 0%,
+  rgba(46,30,59,0.6755077030812324) 60%,rgba(2,0,36,1) 100%);
     position: relative;
     padding: 100px;
     
@@ -974,7 +989,9 @@ background-color: #1c252b;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #1c252b;
+    background: rgba(2,0,36,1);
+    background: linear-gradient(180deg,rgba(2,0,36,1) 0%,
+    rgba(2,0,36,1) 100%);
     }
     h3.text9{
       color: #FF3C00;
@@ -1007,7 +1024,9 @@ background-color: #1c252b;
       display: flex;
       align-items: center;
       justify-content: space-around;
-    background-color: #1c252b;     
+      background: rgba(2,0,36,1);
+    background: linear-gradient(180deg,rgba(2,0,36,1) 0%,
+    rgba(2,0,36,1) 10%, );   
           padding: 120px;
           
     }
