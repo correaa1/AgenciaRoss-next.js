@@ -84,7 +84,7 @@ function handleClick (){
           <div className="containerEquipe">
    
    {/*Carrousel da equipe*/}
-          <div class="slider">
+          <div className="slider">
 	<div className="slide-track">
 	<div className="card">
   <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
@@ -99,8 +99,8 @@ function handleClick (){
   </div>
     </div>
     </div>  
+    
     <div className="slide-track">
-		
     <div className="card">
 <h4 className='textTime'>Diretor Audio Visual</h4>
   <h3 className='textTime'>GIAN GABOARDI</h3>
@@ -115,6 +115,7 @@ function handleClick (){
   <div className="imgEquipeE"></div>
     </div>
     </div>
+    
     <div className="slide-track"> 
     <div className="card">
 <h4 className='textTime'>Gestor de tráfego mirin</h4>
@@ -135,6 +136,22 @@ function handleClick (){
 <h4 className='textTime'>CEO – Head Comercial</h4>
   <h3 className='textTime'>GERSON GONÇALVES</h3>
   <div className="imgEquipeG"></div>
+    </div>
+    </div>
+
+    <div className="slide-track">
+    <div className="card">
+<h4 className='textTime'>Diretor Audio Visual</h4>
+  <h3 className='textTime'>GIAN GABOARDI</h3>
+  <div className="imgEquipeJ"></div>
+    </div>
+    </div>
+
+    <div className="slide-track">
+		<div className="card">
+<h4 className='textTime'>Head Social Midia e Designer</h4>
+  <h3 className='textTime'>MARIA EDUARDA</h3>
+  <div className="imgEquipeE"></div>
     </div>
     </div>
 
@@ -189,7 +206,41 @@ function handleClick (){
     <div className="slide2">
 			<Image src={img12}  height="200" width="200" alt="" />
 		</div>
+    <div className="slide2">
+			<Image src={img1}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img2}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img33}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img4}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img6}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img7}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img8}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img9}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img10}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img11}  height="200" width="200" alt="" />
+		</div>
+    <div className="slide2">
+			<Image src={img12}  height="200" width="200" alt="" />
+		</div>
 	</div>
+
 </div>
         </div>
 
