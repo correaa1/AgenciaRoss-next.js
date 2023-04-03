@@ -34,22 +34,22 @@ function handleClick (){
 
   <div id='container'>
     <div className='containerCapa'>
-     <div className='sp-container'>
-      <div className='sp-content'></div>
-     <h2 className="frame-5"><span className='form'>  <Form/></span></h2>
-    </div>
+    
+     
+   
    {/*container abaixo faz a transição do texta inicial.*/}
     <div className="sp-container">
 	<div  className="sp-content">       
         <h2 className="frame-5">
        
-        <span className='iconCapa'>  <Image src={logoRoss} alt='' style={{height:200, width:200}}/>   </span>
+        <span className='iconCapa'>  
+        <Image src={logoRoss} alt='' style={{height:200, width:200}}/>   </span>
                <span className='textCapa'>   Preencha o formulário para ter um time de marketing<p/>montado pela Agencia Ross.</span>    
-       
+               <div className='containerCapa2'>   <span><Form/></span>
         <span className='imgCapa'>
-        <Image className='imgCapa' alt=''quality={100} loading="lazy"  src={Capa}width='750' height='750'   />
+        <Image className='imgCapa '  alt=''quality={100} loading="lazy"  src={Capa}width='750' height='750'   />
       
-        </span>      
+        </span>      </div>
 		</h2></div>
       
        

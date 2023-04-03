@@ -36,8 +36,9 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
+  background: #d5d5d5;
   background-color: #000000;
-background-image: linear-gradient(180deg, #000000 0%, #434343 36%, #000000 100%);
+  background-image: linear-gradient(180deg, #000000 0%, #434343 56%, #000000 100%);
 
   width: 100%;
   
@@ -47,9 +48,9 @@ background-image: linear-gradient(180deg, #000000 0%, #434343 36%, #000000 100%)
   height: 720px;
   padding-top: 100px;
 }
-   img.imgCapa{
-    filter: drop-shadow(0 0 0.75rem crimson);
-
+   span.iconCapa{
+    position: relative;
+    left:500px;
 
   }
   
@@ -59,22 +60,16 @@ background-image: linear-gradient(180deg, #000000 0%, #434343 36%, #000000 100%)
       flex-direction: column;
      
     }
-    span.form{
-      padding-top:220px
+    
+
+    .containerCapa2{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
     }
-    span.textCapa{
-      position:relative;
-      left:300px;
-    }  
-    span.iconCapa{
-      position:relative;
-      left:550px;
-    } 
-    span.imgCapa{
-        position:relative;
-        top:-90px;
-        
-    }
+  
     /*todo o css da transição do texto inicial */        
     h1.main, p.demos {
       -webkit-animation-delay: 18s;
@@ -350,10 +345,6 @@ background-image: linear-gradient(180deg, #000000 0%, #434343 36%, #000000 100%)
     }
 
 
-    .containerButton1{
-
-        
-    }
    // Size can also be negative; see how it's smaller than the element
 .raise:hover,
 .raise:focus {
@@ -442,7 +433,7 @@ code {
     justify-content: center;
     flex-direction: column;
     background-color: #000000;
-    background-image: linear-gradient(180deg, #000000 0%, #000000 36%, #434343 100%);
+    background-image: linear-gradient(180deg, #000000 0%, #000000 56%, #434343 100%);
     width: 100%;
     padding:150px;
 
