@@ -31,35 +31,50 @@
    div.container3 {width: 100%;padding: 30px}
  }
 
+.containerCapa{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+background-image: linear-gradient(180deg, #000000 0%, #434343 36%, #000000 100%);
 
-    .imagem{
-background-size: cover ; 
-position: relative;
-width: 100%;
-      background-image: url('../../../assets/img3.png') ;
-      background-repeat: no-repeat,;
-      border:none;
-      font-family: 'Barlow', sans-serif;
-      
-    }
+  width: 100%;
+  
+}
+  
+.containerForm{
+  height: 720px;
+  padding-top: 100px;
+}
+   img.imgCapa{
+    filter: drop-shadow(0 0 0.75rem crimson);
 
-   
-    .imgRossInicio{
-      background-image: url('../../../assets/logoRoss.png');
-      background-size: cover;
-      border-radius: 10px;
-      height:300px;
-      width: 300px;
-      position: relative;
-      padding: 75px;                            
-    }
+
+  }
+  
     span{
       display: flex;
       justify-content: center;
-      padding: 15px;
+      flex-direction: column;
+     
     }
-      
-
+    span.form{
+      padding-top:220px
+    }
+    span.textCapa{
+      position:relative;
+      left:300px;
+    }  
+    span.iconCapa{
+      position:relative;
+      left:550px;
+    } 
+    span.imgCapa{
+        position:relative;
+        top:-90px;
+        
+    }
     /*todo o css da transição do texto inicial */        
     h1.main, p.demos {
       -webkit-animation-delay: 18s;
@@ -69,26 +84,23 @@ width: 100%;
     }
     .sp-container {
       position: relative;
-      padding: 300px;
+      
       display: flex;
+      
       justify-content: center;
       align-items: center;
-      padding-bottom: 250px;
-      width: 100%;
-      height: 100%;
+    
+     
       z-index: 0;
-      background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-      background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-      background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-      background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+
     }
     .sp-content {
       position: relative;
-        
+      
     }
     .sp-container h2 {
       position: relative;
-      padding-top: 60px;
+     
       font-size: 24px;
       width: 100%;
       text-align: center;
@@ -141,10 +153,10 @@ width: 100%;
       color: transparent;
       text-shadow: 0px 0px 1px #080808;
       color:aliceblue ;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 25px;
       font-weight: 400;
-      line-height: 25px;
+      
       
     }
 
@@ -339,7 +351,7 @@ width: 100%;
 
 
     .containerButton1{
-      padding-top:50px
+
         
     }
    // Size can also be negative; see how it's smaller than the element
@@ -384,6 +396,9 @@ button {
   }
 }
 
+.containerButton1 button.raise{
+  width: 520px;                              
+}
 //=== Pen styling, ignore
 
 // Basic button styles
@@ -414,20 +429,11 @@ code {
   border:1px solid aliceblue;
   color: aliceblue;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
  }
  
  
-    .containerForm{
-      width: 100%;
-      background-color: #1c252b;
-        padding: 40px;
-       position: relative;
-       border-top: 1px solid;
-      border-color: #FF3C00;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-    }
+   
 
 
 .container2{
@@ -435,7 +441,8 @@ code {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #1f2e3a;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #000000 36%, #434343 100%);
     width: 100%;
     padding:150px;
 
@@ -697,8 +704,8 @@ h3.textTime{
     
     .slide-track {
       animation: scroll $animationSpeed   infinite ;
-      animation-direction:alternate-reverse ;
-      animation-delay:2s;
+      animation-direction:reverse ;
+      animation-delay:5s;
       width: 100%;
       padding: 30px;
       padding-left: 100px
@@ -729,6 +736,7 @@ h3.textTime{
     position: relative;
     width: 100%;
     padding-top:80px;
+    padding-left: 20px;
     &::before,
     &::after {
      
@@ -754,12 +762,14 @@ h3.textTime{
       animation: scroll $animationSpeed linear infinite;
       display: flex;
       width: calc(250px * 14);
-     
+      animation-direction: reverse;
+      animation-delay: 5s;
     }
     
     .slide2 {
       height: 100px;
       width: 250px;
+      padding-left: 100px;
     }
   }
   

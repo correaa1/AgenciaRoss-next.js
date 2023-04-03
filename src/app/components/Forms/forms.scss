@@ -3,14 +3,14 @@
 
    form {
      display: inline-block;
-     background-color: #35415a;
+    
      border-radius: 12px;
-     border: 2px solid #FF3C00;
+     border: 2px solid #200122;
      position: relative;
-     top:-10vh;
-     width: 800px;
+    height: 750px;
+     width: 515px;
      border-width: 1px;
-     padding: 20px;
+    padding: 10px;
    }
    
    h1 {
@@ -22,7 +22,7 @@
    }
    
    .form {
-     background: #0e101c;
+
      max-width: 400px;
      margin: 0 auto;
    }
@@ -51,7 +51,7 @@
      margin-bottom: 10px;
      font-size: 14px;
      width: 90%;
-     height: 6.5vh;
+    padding:20px
      
    }
    
@@ -106,14 +106,14 @@
     display: flex;
     align-items: center;
   justify-content: center;
+  
   }
   
-  .containerButtonForm button.raise{
+  .containerForm button.raise{
     background: none;
     border: 2px solid;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1;
-    padding: 20px;
     border-radius: 10px;
     width: 90%;
     

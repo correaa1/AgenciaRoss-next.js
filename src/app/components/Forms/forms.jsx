@@ -70,6 +70,7 @@ export default function Form() {
         <option value="mais de R$500 mil">mais de R$500 mil</option>     
       </select>
       <button className='raise' type="submit">ENVIAR CONTATO</button>
-      </div> </form>
+      </div> 
+      </form>
   );
 }

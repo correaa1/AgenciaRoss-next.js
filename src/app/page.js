@@ -20,6 +20,8 @@ import img11 from '../../assets/img11.png'
 import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
 import sentEmail from '../aws/ses.js'
+import Capa from '../../assets/Capa.png'
+import logoRoss from '../../assets/logoRoss.png'
 export default function Home() {
   const ref = useRef(null)
 function handleClick (){
@@ -31,34 +33,34 @@ function handleClick (){
   return(
 
   <div id='container'>
-      <div className='imagem'>
-      
+    <div className='containerCapa'>
+     <div className='sp-container'>
+      <div className='sp-content'></div>
+     <h2 className="frame-5"><span className='form'>  <Form/></span></h2>
+    </div>
    {/*container abaixo faz a transição do texta inicial.*/}
     <div className="sp-container">
 	<div  className="sp-content">       
         <h2 className="frame-5">
        
-			<span>
-        <div className='imgRossInicio'/>
-         </span>
-         <span>Agencia Ross,&nbsp; agende&nbsp; um horario conosco.</span>
-			<span> </span>
-      <div className='containerButton1'>   
-			<span>
-      <button onClick={sentEmail} className='raise'>AGENDAR HORÁRIO</button>
-				
-      </span>   </div>
+        <span className='iconCapa'>  <Image src={logoRoss} alt='' style={{height:200, width:200}}/>   </span>
+               <span className='textCapa'>   Preencha o formulário para ter um time de marketing<p/>montado pela Agencia Ross.</span>    
+       
+        <span className='imgCapa'>
+        <Image className='imgCapa' alt=''quality={100} loading="lazy"  src={Capa}width='750' height='750'   />
+      
+        </span>      
 		</h2></div>
       
        
     </div>  
     <HeadLine ref={ref} />
-       </div> 
+    </div>
+  
+       
        
       {/*formulario*/}
-      <div className='containerForm'>
-    <Form/>
-    </div>
+     
 
       <div className='container2'>
       <h2 className='text2Main' >SE A SUA EMPRESA</h2>
