@@ -19,7 +19,7 @@ import img10 from '../../assets/img10.png'
 import img11 from '../../assets/img11.png'
 import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
-import sentEmail from '../aws/ses.js'
+import sentEmail from '../../ses.js'
 import Capa from '../../assets/Capa.png'
 import logoRoss from '../../assets/logoRoss.png'
 export default function Home() {
@@ -81,6 +81,24 @@ function handleClick (){
      {/*container que contem a parte da equipe da empresa*/}
       <div className='container3'>
           <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
+      <h3>Esses clientes decidiram investir em marketing 
+        <span> digital conosco:  </span></h3>
+       
+       <div   className='container3-4'> 
+       <div className='containerText3-4'>
+      <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
+      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
+         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
+         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
+         <span/>
+         <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
+      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
+         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
+         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
+         </div>
+         <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
+         </div>
+         </div> 
           <h4 className='text3'>Somos um time de especialistas e fazemos dezenas de negócios venderem mais através de campanhas</h4>
           <h4 className='text3'>nas Plataformas: Facebook, Instagram, Google, Youtube, LinkedIn, Tik Tok dentre outras..</h4> 
           <div className="containerEquipe">
@@ -246,25 +264,7 @@ function handleClick (){
 </div>
         </div>
 
-      <div className='containerTitle3-4'>
-      <h2>Esses clientes decidiram investir em marketing 
-        <span> digital conosco:  </span></h2>
-        </div>
-       <div   className='container3-4'> 
-       <div className='containerText3-4'>
-      <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
-      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
-         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
-         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         <span/>
-         <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
-      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
-         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
-         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         </div>
-         <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
-         </div>
-         </div> 
+      
 
   <div className='container4'>
     <h2 className='text4'>Como funciona?</h2></div>

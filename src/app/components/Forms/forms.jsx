@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import sendEmail from '../../../aws/ses';
+import sendEmail from '../../../../ses';
 import "./forms.scss";
 import Swal from 'sweetalert2'
 
