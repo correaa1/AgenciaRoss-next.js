@@ -19,7 +19,6 @@ import img10 from '../../assets/img10.png'
 import img11 from '../../assets/img11.png'
 import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
-import sentEmail from '../../ses.js'
 import Capa from '../../assets/Capa.png'
 import logoRoss from '../../assets/logoRoss.png'
 export default function Home() {

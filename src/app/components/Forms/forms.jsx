@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import sendEmail from '../../../../ses';
+import  hello  from '../../../../aws-node-http-api-dev/handler.js';
 import "./forms.scss";
 import Swal from 'sweetalert2'
 
@@ -13,7 +13,7 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await sendEmail(formData);
+    await hello (formData);
     Swal.fire({
       title: 'Contato enviado com sucesso!',
       text: 'Um dos nossos especialistas entrara em contato em breve.',
@@ -45,7 +45,7 @@ export default function Form() {
      
       <input
         placeholder="Seu número de whatsApp"
-        type="text" name="telefone"
+        type="number" name="telefone"
         value={formData.telefone} 
         onChange={handleChange}
         
@@ -69,7 +69,7 @@ export default function Form() {
         <option value="R$100 a R$500 mil">R$100 a R$500 mil</option>
         <option value="mais de R$500 mil">mais de R$500 mil</option>     
       </select>
-      <button className='raise' type="submit">ENVIAR CONTATO</button>
+      <button  className='raise' type="submit">ENVIAR CONTATO</button>
       </div> 
       </form>
   );
