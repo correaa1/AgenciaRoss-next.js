@@ -449,7 +449,6 @@ code {
     background-image: linear-gradient(180deg, #000000 0%, #000000 56%, #434343 100%);
     width: 100%;
     padding:150px;
-
     
 }
 h2.text2Main{
@@ -464,14 +463,28 @@ h2.text2Main{
  display: flex;
  align-items: center;
  justify-content: center;
-  padding: 10vh;
+ flex-wrap: wrap;
+  padding: 100px;
+  width: 100%;
+  text-align:center;
+  
+	
+	@keyframes text{
+		from{stroke-dashoffset:800;  }
+		to{stroke-dashoffset:0;fill:black;  }
+		}
 }
 .container2Icon30k{
   display: flex;
-  flex-direction: column;
+  flex-wrap:wrap;
   justify-content: center;
   align-items: center;
   padding: 40px;
+  margin:10px;
+  border:solid 1px #19bc8b;
+  width: 35%;
+  height:250px;
+ 
 }
 
 
@@ -481,6 +494,8 @@ h2.text2Main{
   font-weight: 600;
   text-transform: uppercase;
   padding: 1vh;
+ 
+
 }
 
 .container3{
