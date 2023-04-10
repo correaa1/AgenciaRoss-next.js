@@ -28,27 +28,33 @@ export default function Form() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="containerTextForms">   
-    <h2 className="textForms">AGENDE UMA SESSÃO ESTRATÉGICA E DESCUBRA O PASSO A PASSO<br/> PARA VENDER MAIS EM 2023.</h2>
+    <h2 className="textForms">AGENDE UMA SESSÃO ESTRATÉGICA E DESCUBRA<p/> O PASSO A PASSO PARA VENDER MAIS EM 2023.</h2>
       <h3 className="textForms">PREENCHA O FORMULÁRIO ABAIXO</h3>
       </div>
       <div className="containerInput">
-      <input placeholder='Nome e sobrenome' type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
+      <input placeholder='Nome e sobrenome'
+       type="text" 
+       id="name" 
+       name="name" 
+       value={formData.name} 
+             onChange={handleChange} />
       <input
         placeholder="Seu melhor e-mail "
         type="email"
        name="email"
        value={formData.email} 
        onChange={handleChange}
-       
       />
       
      
       <input
+               
         placeholder="Seu número de whatsApp"
         type="number" name="telefone"
         value={formData.telefone} 
         onChange={handleChange}
-        
+      
+      
         />
         
 <input
@@ -69,7 +75,8 @@ export default function Form() {
         <option value="R$100 a R$500 mil">R$100 a R$500 mil</option>
         <option value="mais de R$500 mil">mais de R$500 mil</option>     
       </select>
-      <button  className='raise' type="submit">ENVIAR CONTATO</button>
+      <div className='containerButtonForm'>
+      <button  className='raise' type="submit">QUERO FATURAR MAIS</button></div>
       </div> 
       </form>
   );

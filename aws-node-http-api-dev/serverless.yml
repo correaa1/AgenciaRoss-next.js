@@ -1,3 +1,4 @@
+  
 # Welcome to Serverless!
 #
 # This file is the main config file for your service.
@@ -10,7 +11,6 @@
 #    docs.serverless.com
 #
 # Happy Coding!
-
 service: aws-node-http-api-dev
 # app and org for use with dashboard.serverless.com
 #app: your-app-name

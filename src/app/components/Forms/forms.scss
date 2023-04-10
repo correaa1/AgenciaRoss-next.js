@@ -3,11 +3,11 @@
 
    form {
      display: inline-block;
-    
-     border-radius: 12px;
-     border: 2px solid #200122;
+     background:rgba(24,24,24,0.3);
+     border-radius: 17px;
+     border-color: #838383;
      position: relative;
-    height: 750px;
+   
      width: 515px;
      border-width: 1px;
     padding: 10px;
@@ -43,17 +43,18 @@
    }
    input {
      display: block;
-     box-sizing: border-box;
-     position: relative;
-     border-radius: 8px;
-     border: 1px solid rgb(255, 255, 255);
-     padding: 10px 20px;
-     margin-bottom: 10px;
-     font-size: 14px;
-     width: 90%;
-    padding:20px
-     
+     height: 50px;
+     font-size: 15px;
+     line-height: 15px;
+     padding:16px 16px;
+     margin:10px;
+     width: 80%;
+     border-style: solid;
+     border-width: 1px;
+     border-color: #bbbbbb;
+     border-radius:4px;
    }
+  
    
    .containerTextForms {  
      display: flex;
@@ -67,54 +68,50 @@
     color: aliceblue;
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
-    min-height: 56px;
-    line-height: 52px!important;
-    padding-top: 40px;
+    font-size: 16px;
+    padding-top: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    line-height: 25px;
    }
    h3.textForms{
-    color: #ff3c00;
+    color: #1bba15;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
-    letter-spacing: 1.5px;
     position: relative;
-    margin-bottom: 40px;
-    line-height: 25px;
+    line-height: 35px;
+    
    }
   
    
   
    
    select{
-      width: 90%;
-      display: block;
-     box-sizing: border-box;
-     position: relative;
-     border-radius: 4px;
-     border: 1px solid white;
-     padding: 10px;
-     margin-bottom: 10px;
-     font-size: 14px;
-     border-radius: 8px;
-     height: 6vh;
+    display: block;
+    height: 50px;
+    font-size: 15px;
+    line-height: 15px;
+    padding:16px 16px;
+    margin:10px;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    border-radius:4px;
    }
    
   .containerButtonForm{
-    display: flex;
-    align-items: center;
-  justify-content: center;
-  
+    width:100%;
+  padding:20px;
   }
   
-  .containerForm button.raise{
-    background: none;
+  
+  form .raise{
+    background-color: #1bba15;
+    color:aliceblue;
     border: 2px solid;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1;
     border-radius: 10px;
-    width: 90%;
-    
   }

@@ -4,9 +4,10 @@ import  React,{useRef} from 'react';
 import Form from './components/Forms/forms.jsx'
  import HeadLine from '../Router/router'
  import Image from 'next/image'
-import star from'../../assets/star.png'
-import prancheta from'../../assets/prancheta.png'
-import complet from'../../assets/complet.png'
+import client from'../../assets/client.png'
+import ads from'../../assets/ads.png'
+import media from'../../assets/social-media.png'
+import estrategia from'../../assets/estrategia.png'
 import img1 from '../../assets/img1.png'
 import img2 from '../../assets/img2.png'
 import img33 from '../../assets/img33.png'
@@ -19,7 +20,7 @@ import img10 from '../../assets/img10.png'
 import img11 from '../../assets/img11.png'
 import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
-import Capa from '../../assets/Capa.png'
+  import Capa from '../../assets/Capa.png'
 import logoRoss from '../../assets/logoRoss.png'
 export default function Home() {
   const ref = useRef(null)
@@ -43,7 +44,9 @@ function handleClick (){
        
         <span className='iconCapa'>  
         <Image src={logoRoss} alt='' style={{height:200, width:200}}/>   </span>
-               <span className='textCapa'>   Preencha o formulário para ter um time de marketing<p/>montado pela Agencia Ross.</span>    
+               <span > <h2 className='textCapa'>Marketing digital que funciona </h2> </span>
+               <span> <h4 className='textCapa'> Descubra o Método BASE que já ajudou dezenas de restaurantes
+                e deliverys a superaram a meta de vendas.</h4></span>     
                <div className='containerCapa2'>   <span><Form/></span>
         <span className='imgCapa'>
         <Image className='imgCapa '  alt=''quality={100} loading="lazy"  src={Capa}width='750' height='750'   />
@@ -62,28 +65,36 @@ function handleClick (){
      
 
       <div className='container2'>
-      <h2 className='text2Main' >SE A SUA EMPRESA</h2>
+      <h2 className='text2Main' >O que falta para você faturar mais atualmente?</h2>
       <div className='container2Text'>
         <div className='container2Icon30k'>
-        <h2 className='icon30k'>30k  </h2>
-      <h3 className='text2'>Fatura mais de R$30 mil reais</h3></div>
+        <h2 className='icon30k'>  </h2>
+      <h3 className='text2'>Se você não tem clareza nessa resposta, 
+      nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.
+</h3></div>
 
       <div className='container2Icon30k'>
       <div className='iconGrafico'/>  
-      <h3 className='text2'>Busca ter previsibilidade nas vendas</h3>
+      <h3 className='text2'> Sabemos que você não quer ficar refém das taxas do ifood, 
+      sempre pagando pelo cliente que já é seu.
+</h3>
+      </div>
+
+      <div className='container2Icon30k'>
+      <div className='iconGrafico'/>  
+      <h3 className='text2'>Sabemos também que a velha forma de fazer marketing 
+      focado em seguidores para o instagram não paga as contas.
+</h3>
       </div>
 
       <div className='container2Icon30k'>
       <div className='iconSubir'>  </div>
-      <h3 className='text2'>Busca receber mais leads qualificados</h3></div> </div>
+      <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys,
+      isso pode fazer seu negócio crescer, e você vai entender o porque!</h3></div> </div>
    <div className='container2Button'> <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div></div>
-     {/*container que contem a parte da equipe da empresa*/}
-      <div className='container3'>
-          <h2 className='text3'>O QUE A AGENCIA ROSS FAZ?</h2>
-      <h3>Esses clientes decidiram investir em marketing 
-        <span> digital conosco:  </span></h3>
-       
-       <div   className='container3-4'> 
+
+
+   <div   className='container3-4'> 
        <div className='containerText3-4'>
       <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
@@ -96,10 +107,17 @@ function handleClick (){
          além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
          </div>
          <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
+
          </div>
          </div> 
-          <h4 className='text3'>Somos um time de especialistas e fazemos dezenas de negócios venderem mais através de campanhas</h4>
-          <h4 className='text3'>nas Plataformas: Facebook, Instagram, Google, Youtube, LinkedIn, Tik Tok dentre outras..</h4> 
+     
+
+     {/*container que contem a parte da equipe da empresa*/}
+      <div className='container3'>
+          <h2 className='text3'>Quem somos?</h2>
+      <h3>Um time de especialistas prontos para fazer seu restaurante decolar!
+        </h3>
+       
           <div className="containerEquipe">
    
    {/*Carrousel da equipe*/}
@@ -193,97 +211,114 @@ function handleClick (){
 			
 		</div>
 		<div className="slide2">
-			<Image src={img1} height="200" width="200" alt="" />
+			<Image src={img1} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img2} height="200" width="200" alt="" />
+			<Image src={img2} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img33} height="200" width="200" alt="" />
+			<Image src={img33} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img4} height="200" width="200" alt="" />
+			<Image src={img4} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img6} height="200" width="200" alt="" />
+			<Image src={img6} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img7} height="200" width="200" alt="" />
+			<Image src={img7} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img8}height="200" width="200" alt="" />
+			<Image src={img8}height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img9} height="200" width="200" alt="" />
+			<Image src={img9} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img10} height="200" width="200" alt="" />
+			<Image src={img10} height="100" width="100" alt="" />
 		</div>
 		<div className="slide2">
-			<Image src={img11}  height="200" width="200" alt="" />
+			<Image src={img11}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img12}  height="200" width="200" alt="" />
+			<Image src={img12}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img1}  height="200" width="200" alt="" />
+			<Image src={img1}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img2}  height="200" width="200" alt="" />
+			<Image src={img2}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img33}  height="200" width="200" alt="" />
+			<Image src={img33}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img4}  height="200" width="200" alt="" />
+			<Image src={img4}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img6}  height="200" width="200" alt="" />
+			<Image src={img6}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img7}  height="200" width="200" alt="" />
+			<Image src={img7}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img8}  height="200" width="200" alt="" />
+			<Image src={img8}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img9}  height="200" width="200" alt="" />
+			<Image src={img9}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img10}  height="200" width="200" alt="" />
+			<Image src={img10}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img11}  height="200" width="200" alt="" />
+			<Image src={img11}  height="100" width="100" alt="" />
 		</div>
     <div className="slide2">
-			<Image src={img12}  height="200" width="200" alt="" />
+			<Image src={img12}  height="100" width="100" alt="" />
 		</div>
 	</div>
 
 </div>
         </div>
 
-      
-
   <div className='container4'>
-    <h2 className='text4'>Como funciona?</h2></div>
+    <h2 className='text4'>Como funciona?</h2>
+    <h3 className='text4'>Se você quer acelerar o crescimento do seu negócio, 
+    precisa fidelizar melhor seus clientes, atrair mais pessoas e ter uma estratégia montada para convertê-los em clientes, 
+    sem pagar taxas para os apps de comida.</h3>
+    <h3 className='text4'> E, nisso, o metodo B.A.S.E pode te ajudar.</h3>
+   
     <div className='container5'>
     <div className='spaceContainer5'>
-    <Image src={star} style={{height:40, width:70}} alt=''/>    
-    <h3 className='text5'>ENTENDEMOS O OBJETIVO<br/>DO SEU NEGÓCIO</h3>  
+    <Image src={client} alt=''style={{height:75, width:75,padding:10}}/>
+    <h2 className='text5'>Base <p/>Forte</h2>
+    <h4 className='text5'> Chamamos o seu cliente pelo nome no whatsapp,
+     oferecendo o produto que ele sempre compra no seu restaurante.</h4>
+  
     </div>
       
     <div className='spaceContainer5'> 
-    <Image src={prancheta} style={{height:40,width:70}} alt=''/> 
-    <h3 className='text5'>CRIAMOS UMA ESTRATÉGIA <br/>PERSONALIZADA</h3>   
+    <Image src={ads} alt=''style={{height:75, width:75,padding:10}}/>
+    <h2 className='text5'>Anuncios <p/>Perseguidores </h2> <h4 className='text5'>Buscamos o melhor cliente para seu negócio.
+     Aquele que está procurando o que a sua empresa tem a oferecer.
+     </h4>
     </div>
-     
+
     <div className='spaceContainer5'> 
-    <Image src={complet} style={{height:40,width:70}} alt=''/> 
-    <h3 className='text5'>ENTRAMOS EM CAMPO PARA<br/> EXECUTAR</h3>   
+    <Image src={media} alt=''style={{height:75, width:75,padding:10}}/>
+    <h2 className='text5'>Social Media<p/> Impactante </h2> <h4 className='text5'> Os clientes comem com os olhos! 
+    Tenha um desing profissional em toda experiência da sua marca e em cada posicionamento da sua empresa.
+    </h4>
+    </div>
+
+    <div className='spaceContainer5'> 
+    <Image src={estrategia} alt=''style={{height:75, width:75,padding:10}}/>
+    <h2 className='text5'>Estratégias<p/> Personalizadas</h2>
+    <h4 className='text5'> Definimos as estrategias certas para cada canal de venda do seu negócio,
+     resolvemos os gargalos e batemos sua meta de faturamento.   </h4>
     </div>
   </div>
-
+  </div>
     <dix className='container6'>
       <h2 className='text6'>TEMOS UMA ESTRUTURA DE VENDAS<br/>PODEROSA CAPAZ DE FAZER O SEU NEGÓCIO<br/>DECOLAR ATRAVÉS DA INTERNET</h2>
       </dix>  
