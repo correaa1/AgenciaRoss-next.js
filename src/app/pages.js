@@ -360,41 +360,7 @@ function handleClick (){
     </div>
   </div>
   </div>
-    <dix className='container6'>
-      <h2 className='text6'>TEMOS UMA ESTRUTURA DE VENDAS<br/>PODEROSA CAPAZ DE FAZER O SEU NEGÓCIO<br/>DECOLAR ATRAVÉS DA INTERNET</h2>
-      </dix>  
-
-      <div className='container7'>
-      <div className='spaceContainer7'>
-        
-    <h3 className='text7'>ESTRATÉGIA</h3>  
-    <h3 className='text7'> Plano estratégico<br/>&nbsp;&nbsp;&nbsp;Personalizado</h3> 
-    </div>
-    
-    <div className='spaceContainer7'> 
-    
-    <h3 className='text7'>FACEBOOK ADS</h3>   
-    <h3 className='text7'>Tráfego Pago no Facebook ADS</h3>
-    </div>
-     
-    <div className='spaceContainer7'> 
-    
-    <h3 className='text7'>GOOGLE ADS</h3>
-    <h3 className='text7'>Tráfego Pago no Google ADS</h3>
-     </div>
-   
-    <div className='spaceContainer7'> 
-    
-    <h3 className='text7'>COPYWRITING</h3>
-    <h3 className='text7'>Construímos a comunicação certa para você vender mais</h3>
-     </div>
-        </div> 
-        <div className='container8'>
-          <h3 className='text8'> Hoje você pode receber nossos serviços completos de marketing</h3>
-          <h2 className='text8'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
-          <div className='containerButton3'>
-          <button  onClick={handleClick}  className='raise'>ENTRAR EM CONTATO AGORA</button>
-          </div></div>
+ 
         <div className='container9'>
           <h3 className='text9'>DEPOIMENTOS</h3>
           <h2 className='text9'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
