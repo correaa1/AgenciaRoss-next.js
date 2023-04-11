@@ -3,6 +3,7 @@
      align-items: center;
      flex-direction: column;
       border: none;
+      
     }
  
 
@@ -36,9 +37,8 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  background: #d5d5d5;
-  background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 0%, #434343 56%, #000000 100%);
+  background: rgb(25,10,5);
+background: linear-gradient(180deg, rgba(25,10,5,1) 0%, rgba(54,1,1,1) 100%);
 
   width: 100%;
   
@@ -445,8 +445,8 @@ code {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #000000;
-    background-image: linear-gradient(180deg, #000000 0%, #000000 56%, #434343 100%);
+    background: rgba(54,1,1,1);
+    background: linear-gradient(180deg, rgba(54,1,1,1) 0%, rgba(25,10,5,1) 100%);
     width: 100%;
     padding:150px;
     
@@ -478,8 +478,7 @@ h2.text2Main{
   border:solid 1px #19bc8b;
   width: 35%;
   height:250px;
-  animation: ani2 10s backwards;
-  animation-delay: 5s;
+
 }
 .ani2Container2{
   display: flex;
@@ -491,8 +490,7 @@ h2.text2Main{
   border:solid 1px #19bc8b;
   width: 35%;
   height:250px;
-  animation: ani2 10s backwards;
-  animation-delay: 10s;
+
 }
 .ani3Container2{
   display: flex;
@@ -504,8 +502,7 @@ h2.text2Main{
   border:solid 1px #19bc8b;
   width: 35%;
   height:250px;
-  animation: ani3 10s backwards;
-  animation-delay: 15s;
+
 }
 .ani4Container2{
   display: flex;
@@ -517,8 +514,7 @@ h2.text2Main{
   border:solid 1px #19bc8b;
   width: 35%;
   height:250px;
-  animation: ani4 10s backwards;
-  animation-delay: 20s;
+
 }
 
 .text2{
@@ -578,8 +574,8 @@ h2.text2Main{
 }
 
 .container3{
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(46,30,59,0.6755077030812324) 42%, rgba(2,0,36,1) 100%);
+  background: rgb(25,10,5);
+  background: linear-gradient(180deg, rgba(25,10,5,1) 0%, rgba(54,1,1,1) 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -856,8 +852,6 @@ h3.textTime{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(2,0,36,1);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 100%);
    padding-top: 200px;
   }
   .containerTitle3-4 h2{
@@ -882,8 +876,8 @@ h3.textTime{
     align-items: center;
     justify-content: center;
     padding:30px 350px 30px;
-    background: rgba(2,0,36,1);
-    background: linear-gradient(180deg,rgba(2,0,36,1)0%,rgba(31, 9, 58, 0.75)100%);
+    background: rgba(25,10,5,1);
+
     
   }
   .containerText3-4{
@@ -903,8 +897,8 @@ h3.textTime{
 .container4{
     width: 100%;
     margin: auto;
-    background: rgba(31, 9, 58, 0.75);
-    background: linear-gradient(180deg, rgba(31, 9, 58, 0.75)0%,rgba(2,0,36,1)30%,rgba(2,0,36,1)100%);
+    background: rgba(54,1,1,1);
+    background: linear-gradient(180deg, rgba(54,1,1,1) 0%, rgba(25,10,5,1) 100%);
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -976,8 +970,8 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-background: rgba(2,0,36,1);
-background: linear-gradient(180deg,rgba(2,0,36,1) 0%,rgba(31, 9, 58, 0.75) 40%);
+background: rgb(25,10,5);
+background: linear-gradient(180deg, rgba(25,10,5,1) 0%, rgba(54,1,1,1) 100%);
 }
 
 .text6{
@@ -1144,6 +1138,7 @@ background: linear-gradient(180deg,rgba(2,0,36,1) 0%,rgba(31, 9, 58, 0.75) 40%);
 
 .containerFinal{
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 background: rgba(2,0,36,1)0%;
@@ -1155,11 +1150,11 @@ text-align: center;
 }
 .imgRoss{
   background-image: url('../../../assets/logoRoss.png');
-  background-size: 100%;
+  background-size: cover;
   border-radius: 10px;
-  height:150px;
-  width: 150px;
-  position: relative;
+  height:120px;
+  width: 120px;
+  
 }
 
 
