@@ -67,27 +67,27 @@ function handleClick (){
       <div className='container2'>
       <h2 className='text2Main' >O que falta para você faturar mais atualmente?</h2>
       <div className='container2Text'>
-        <div className='container2Icon30k'>
+        <div className='ani1Container2'>
         <h2 className='icon30k'>  </h2>
       <h3 className='text2'>Se você não tem clareza nessa resposta, 
       nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.
 </h3></div>
 
-      <div className='container2Icon30k'>
+      <div className='ani2Container2'>
       <div className='iconGrafico'/>  
       <h3 className='text2'> Sabemos que você não quer ficar refém das taxas do ifood, 
       sempre pagando pelo cliente que já é seu.
 </h3>
       </div>
 
-      <div className='container2Icon30k'>
+      <div className='ani3Container2'>
       <div className='iconGrafico'/>  
       <h3 className='text2'>Sabemos também que a velha forma de fazer marketing 
       focado em seguidores para o instagram não paga as contas.
 </h3>
       </div>
 
-      <div className='container2Icon30k'>
+      <div className='ani4Container2'>
       <div className='iconSubir'>  </div>
       <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys,
       isso pode fazer seu negócio crescer, e você vai entender o porque!</h3></div> </div>

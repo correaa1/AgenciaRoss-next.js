@@ -456,7 +456,6 @@ h2.text2Main{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 34px;
   font-weight: 600;
-  text-transform: uppercase;
   line-height: 43px;
 }
 .container2Text{
@@ -467,14 +466,9 @@ h2.text2Main{
   padding: 100px;
   width: 100%;
   text-align:center;
-  
 	
-	@keyframes text{
-		from{stroke-dashoffset:800;  }
-		to{stroke-dashoffset:0;fill:black;  }
-		}
 }
-.container2Icon30k{
+.ani1Container2{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -484,9 +478,48 @@ h2.text2Main{
   border:solid 1px #19bc8b;
   width: 35%;
   height:250px;
- 
+  animation: ani2 10s backwards;
+  animation-delay: 5s;
 }
-
+.ani2Container2{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin:10px;
+  border:solid 1px #19bc8b;
+  width: 35%;
+  height:250px;
+  animation: ani2 10s backwards;
+  animation-delay: 10s;
+}
+.ani3Container2{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin:10px;
+  border:solid 1px #19bc8b;
+  width: 35%;
+  height:250px;
+  animation: ani3 10s backwards;
+  animation-delay: 15s;
+}
+.ani4Container2{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin:10px;
+  border:solid 1px #19bc8b;
+  width: 35%;
+  height:250px;
+  animation: ani4 10s backwards;
+  animation-delay: 20s;
+}
 
 .text2{
   color: #FFFFFF;
@@ -494,7 +527,53 @@ h2.text2Main{
   font-weight: 600;
   text-transform: uppercase;
   padding: 1vh;
- 
+
+  text-align: center;
+}
+
+
+@keyframes ani1{
+  from{
+      opacity: 0;
+      transform: translateX(-200px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+
+}
+@keyframes ani2{
+  from{
+      opacity: 0;
+      transform: translateX(200px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+
+}
+@keyframes ani3{
+  from{
+      opacity: 0;
+      transform: translateX(-600px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+
+}
+@keyframes ani4{
+  from{
+      opacity: 0;
+      transform: translateX(-200px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
 
 }
 
