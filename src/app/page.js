@@ -4,7 +4,7 @@ import { motion, useScroll } from "framer-motion"
 import Home from "./pages";
 
 export default function Page() {
-  const { scrollYProgress } = useScroll();
+   const { scrollYProgress } = useScroll();
 
   return (
     <>
