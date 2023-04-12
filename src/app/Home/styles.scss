@@ -614,7 +614,7 @@ h4.text3{
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  
+  padding-top:40px;
 }
 
 
@@ -622,8 +622,7 @@ h4.textTime{
   color: #ebebeb;
   font-size: 14px;
   font-weight: 400;
-  position: relative;
-   
+  
 }
 h3.textTime{
   color: #fff;
@@ -631,20 +630,20 @@ h3.textTime{
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 20px;
+  padding-top:10px
 }
 
 .imgEquipeR {
   background-image: url('../../../assets/imgEquipeR.png');
   background-size: cover;
-  height:322px;
+  height:400px;
   width: 100%;
   border-radius: 0 0 17px 17px;
 }
 .imgEquipeG {
   background-image: url('../../../assets/imgEquipeG.png');
   background-size: cover;
-  height:322px;
+  height:400px;
   width: 100%;
   border-radius: 0 0 17px 17px;
   
@@ -654,7 +653,7 @@ h3.textTime{
   background-image: url('../../../assets/imgEquipeJ.png');
   background-size: cover;
   border-radius: 17px;
-  height:322px;
+  height:400px;
   width: 100%;
   border-radius: 0 0 17px 17px;
 }
@@ -663,7 +662,7 @@ h3.textTime{
   background-image: url('../../../assets/imgEquipeE.png');
   background-size: cover;
   border-radius: 10px;
-  height:322px;
+  height:400px;
   width: 100%;
   border-radius: 0 0 17px 17px;
   
@@ -672,7 +671,7 @@ h3.textTime{
   background-image: url('../../../assets/imgEquipeM.png');
   background-size: cover;
   border-radius: 10px;
-  height:322px;
+  height:400px;
   width: 100%;
   border-radius: 0 0 17px 17px;
 }
@@ -680,7 +679,6 @@ h3.textTime{
  //CARD
  div.card {
   background: #191c29;
-  padding-top: 50px;
   position: relative;
   border-radius: 17px;
   justify-content: center;
@@ -692,8 +690,8 @@ h3.textTime{
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
-  height: 40vh;
-  width: 400px;
+  height: 400px;
+  width: 300px;
 }
 
 .card:hover {
@@ -759,7 +757,7 @@ h3.textTime{
   // Animation
   @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-2560px))}
+    100% { transform: translateX(calc(-250px * 7))}
   }
   
   
@@ -769,7 +767,7 @@ h3.textTime{
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     overflow:hidden;
     position: relative;
-    padding-top: 50px;
+    
     display: flex;
     justify-content: space-between;
   
@@ -778,7 +776,7 @@ h3.textTime{
     .slide-track {
       animation: scroll $animationSpeed   infinite ;
       animation-direction:reverse ;
-      animation-delay:5s;
+      animation-delay:10s;
       width: 100%;
       padding: 30px;
       padding-left: 100px
@@ -836,7 +834,7 @@ h3.textTime{
       display: flex;
       width: calc(250px * 14);
       animation-direction: reverse;
-      animation-delay: 5s;
+      animation-delay: 10s;
     }
     
     .slide2 {

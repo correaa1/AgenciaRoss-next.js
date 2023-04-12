@@ -165,14 +165,14 @@ function handleClick (){
           <div className="slider">
 	<div className="slide-track">
 	<div className="card">
-  <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <h3 className='textTime'>MATHEUS ROCHA</h3>
+  <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <div className="imgEquipeR"></div>
 </div></div>
 <div className="slide-track">
 <div className="card">
-<h4 className='textTime'>CEO – Head Comercial</h4>
   <h3 className='textTime'>GERSON GONÇALVES</h3>
+  <h4 className='textTime'>CEO – Head Comercial</h4>
   <div className="imgEquipeG">
   </div>
     </div>
@@ -180,61 +180,77 @@ function handleClick (){
     
     <div className="slide-track">
     <div className="card">
-<h4 className='textTime'>Diretor Audio Visual</h4>
   <h3 className='textTime'>GIAN GABOARDI</h3>
+  <h4 className='textTime'>Diretor Audio Visual</h4>
   <div className="imgEquipeJ"></div>
     </div>
     </div>
 
     <div className="slide-track">
 		<div className="card">
-<h4 className='textTime'>Head Social Midia e Designer</h4>
   <h3 className='textTime'>MARIA EDUARDA</h3>
+  <h4 className='textTime'>Head Social Midia e Designer</h4>
   <div className="imgEquipeE"></div>
     </div>
     </div>
     
     <div className="slide-track"> 
     <div className="card">
-<h4 className='textTime'>Gestor de tráfego mirin</h4>
   <h3 className='textTime'>MARCOS JOSÉ</h3>
+  <h4 className='textTime'>Gestor de tráfego mirin</h4>
   <div className="imgEquipeM"></div>
     </div>
     </div>
 
     <div className="slide-track">
-    <div className="card">
-<h4 className='textTime'>Diretor De Operações e Líder do time</h4>
+	<div className="card">
   <h3 className='textTime'>MATHEUS ROCHA</h3>
+  <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
   <div className="imgEquipeR"></div>
-    </div>
-    </div>
-    <div className="slide-track"> 
-    <div className="card">
-<h4 className='textTime'>CEO – Head Comercial</h4>
-  <h3 className='textTime'>GERSON GONÇALVES</h3>
-  <div className="imgEquipeG"></div>
-    </div>
-    </div>
+</div></div>
 
+<div className="slide-track">
+<div className="card">
+  <h3 className='textTime'>GERSON GONÇALVES</h3>
+  <h4 className='textTime'>CEO – Head Comercial</h4>
+  <div className="imgEquipeG">
+  </div>
+    </div>
+    </div>  
+    
     <div className="slide-track">
     <div className="card">
-<h4 className='textTime'>Diretor Audio Visual</h4>
   <h3 className='textTime'>GIAN GABOARDI</h3>
+  <h4 className='textTime'>Diretor Audio Visual</h4>
   <div className="imgEquipeJ"></div>
     </div>
     </div>
 
     <div className="slide-track">
 		<div className="card">
-<h4 className='textTime'>Head Social Midia e Designer</h4>
   <h3 className='textTime'>MARIA EDUARDA</h3>
+  <h4 className='textTime'>Head Social Midia e Designer</h4>
   <div className="imgEquipeE"></div>
     </div>
     </div>
-
     
+    <div className="slide-track"> 
+    <div className="card">
+  <h3 className='textTime'>MARCOS JOSÉ</h3>
+  <h4 className='textTime'>Gestor de tráfego mirin</h4>
+  <div className="imgEquipeM"></div>
+    </div>
+    </div>
+    <div className="slide-track">
+	<div className="card">
+  <h3 className='textTime'>MATHEUS ROCHA</h3>
+  <h4 className='textTime'>Diretor De Operações e Líder do time</h4>
+  <div className="imgEquipeR"></div>
+</div></div>
 </div>
+
+
+
     </div>
     {/*Carrosel banner*/ }
  <div className="slider2">
@@ -305,18 +321,7 @@ function handleClick (){
     <div className="slide2">
 			<Image src={img8}  height="100" width="100" alt="" />
 		</div>
-    <div className="slide2">
-			<Image src={img9}  height="100" width="100" alt="" />
-		</div>
-    <div className="slide2">
-			<Image src={img10}  height="100" width="100" alt="" />
-		</div>
-    <div className="slide2">
-			<Image src={img11}  height="100" width="100" alt="" />
-		</div>
-    <div className="slide2">
-			<Image src={img12}  height="100" width="100" alt="" />
-		</div>
+  
 	</div>
 
 </div>
