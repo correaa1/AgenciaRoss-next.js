@@ -1,14 +1,19 @@
 'use client';
 import React from 'react'
-import { motion, useScroll } from "framer-motion"
+import { motion, useScroll, useSpring } from "framer-motion";
 import Home from "./pages";
 
 export default function Page() {
    const { scrollYProgress } = useScroll();
+   const scaleX = useSpring(scrollYProgress, {
+     stiffness: 100,
+     damping: 30,
+     restDelta: 0.001,
+   });
 
   return (
     <>
-    <motion.div style={{ scaleX: scrollYProgress,position:'fixed',left:0,right:0,background:'#870000' ,height:5 }} /> 
+    <motion.div className="progress-bar"  style={{ scaleX }}  /> 
     <Home/>
      </>
   )
