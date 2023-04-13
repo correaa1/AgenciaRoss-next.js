@@ -863,53 +863,59 @@ h3.textTime{
       padding-left: 100px;
     }
   }
-  
-  .containerTitle3-4{
-    height: auto;
-    width: 100%;
+
+  .containerTitle3-4 h2{
+
     display: flex;
     align-items: center;
     justify-content: center;
-   padding-top: 200px;
+  }
+  .containerTitle3-4{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background: rgba(25,10,5,1);
+    padding:10px;
   }
   .containerTitle3-4 h2{
     font-family: proxima-nova, sans-serif;
     color:aliceblue
   }
-  .containerTitle3-4 h3{
-    font-family: proxima-nova, sans-serif;
-    color:aliceblue
-
-  }
-  .containerTitle3-4 h4{
-    font-family: proxima-nova, sans-serif;
-    color:aliceblue
-
-  }
   .container3-4{
     display:flex;
     width: 100%;
-    height: auto;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding:30px 350px 30px;
     background: rgba(25,10,5,1);
-
+    flex-direction: column;
     
+  }
+  .containerSub3-4{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top:120px
   }
   .containerText3-4{
     width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   margin-left: 500px;
    
+  }
+  .containerText3-4 h3{
+    padding-top:30px
   }
   .containerImg3-4{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-right: 500px;
   }
 
 .container4{

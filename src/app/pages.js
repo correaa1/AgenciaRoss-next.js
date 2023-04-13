@@ -136,14 +136,19 @@ function handleClick (){
      </div>
    <div className='container2Button'> <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div></div>
 
+  
+   <div   className='container3-4'>
+   <div className='containerTitle3-4'>
+   <h2 >Esses clientes decidiram investir em marketing digital conosco</h2>
+   </div>
+       <div className='containerSub3-4'>
 
-   <div   className='container3-4'> 
        <div className='containerText3-4'>
       <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
          capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
          além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         <span/>
+         <span/> <span/>
          <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
          capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
@@ -152,6 +157,9 @@ function handleClick (){
          <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
 
          </div>
+       </div>
+        
+           
          </div> 
      
 
