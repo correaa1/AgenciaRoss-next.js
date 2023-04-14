@@ -1004,10 +1004,11 @@ h2.text5{
 .cardFinal{
   background: rgba(19,19,19,1);
   border-radius: 10px;
-  height: 296px;
+  height: 280px;
   width: 610px;
   border-radius:17px;
   margin:20px;
+  padding:10px;
 }
 .cardFinalSub1{
 width: 100%;
@@ -1019,18 +1020,19 @@ display: flex;
   width:50%;
   display: flex;
   align-items: center;
-  margin:30px 10px 0;
+  margin:25px 10px 0;
+
 
 }
 .cardFinalSub1Right{
   width:50%;
   display: flex;
   flex-direction: row-reverse;
-margin:25px 25px 0;
+margin:15px 15px 0;
 }
 
 .cardFinalSub2{
-padding:5px 15px 0;
+padding:5px 15px 15px;
 }
 .cardFinalSub2 img{
   height:20px;
