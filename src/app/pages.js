@@ -23,6 +23,9 @@ import weed from '../../assets/weed.png'
   import Capa from '../../assets/Capa.png'
 import logoRoss from '../../assets/logoRoss.png'
 import ross from '../../assets/ross.png'
+import google from '../../assets/google.svg'
+import stars from '../../assets/stars.svg'
+import verify from '../../assets/verify.svg'
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -148,7 +151,7 @@ function handleClick (){
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
          capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
          além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         <span/> <span/>
+         <span/> 
          <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
       <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
          capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
@@ -380,10 +383,70 @@ function handleClick (){
           <h2 className='text9'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
           </div>  
           <div className='container10'>
-          <div className='ocuparSpace1'> </div>
-          <div className='ocuparSpace2'> </div>
-          <div className='ocuparSpace3'> </div>
+          <div className='cardFinal'>
+            <div className='cardFinalSub1'>
+            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+            <h3>Bruno Correa</h3>
+            </div>
+             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+            </div>
+
+           <div className='cardFinalSub2'>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={verify} style={{marginLeft:3}}alt=''/>
+
+ <p>
+A V4 me surpreendeu muito com suas métricas e processos totalmente alinhados com a verdadeira demanda
+ da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!.</p> </div>      
           </div>   
+
+          <div className='cardFinal'>
+            <div className='cardFinalSub1'>
+            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+            <h3>Bruno Correa</h3>
+            </div>
+             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+            </div>
+
+           <div className='cardFinalSub2'>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={verify} style={{marginLeft:3}}alt=''/>
+
+ <p>
+A V4 me surpreendeu muito com suas métricas e processos totalmente alinhados com a verdadeira demanda
+ da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!.</p> </div>      
+          </div>
+
+          <div className='cardFinal'>
+            <div className='cardFinalSub1'>
+            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+            <h3>Bruno Correa</h3>
+            </div>
+             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+            </div>
+
+           <div className='cardFinalSub2'>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={stars} alt=''/>
+            <Image src={verify} style={{marginLeft:3}}alt=''/>
+
+ <p>
+A V4 me surpreendeu muito com suas métricas e processos totalmente alinhados com a verdadeira demanda
+ da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!.</p> </div>      
+          </div>
+           </div>
+           
           <div className='containerFinal'>
           </div>      
           </div>
