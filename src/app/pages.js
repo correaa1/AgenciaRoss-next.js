@@ -78,42 +78,42 @@ function handleClick (){
         
       <h2 className='text2Main' >O que falta para você faturar mais atualmente?</h2>
       <div className='container2Text'>
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
                 transition={{
-                    duration: 5,
-                    delay: 3,
-                    ease: [0.5, 0.71, 1, 1.5],
+                    duration: 1,
+                    delay: 0.5,
+                    ease: [0.5, 0.71, 1, 1.5]
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }} 
+                whileHover={{ scale: 1.07}} 
                 className='ani1Container2'>
       <h3 className='text2'>Se você não tem clareza nessa resposta, nosso metodo testado e 
       validado para restaurantes e deliverys pode te ajudar.
 </h3>
       </motion.div>
 
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
                 transition={{
-                    duration: 5,
-                    delay: 6,
-                    ease: [0.5, 0.71, 1, 1.5],
+                    duration: 1,
+                    delay: 0.5,
+                    ease: [0.5, 0.71, 1, 1.5]
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }} 
+                whileHover={{ scale: 1.07}} 
                 className='ani2Container2'>
       <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
 </h3>
 
       </motion.div>
 
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
                 transition={{
-                    duration: 5,
-                    delay: 9,
-                    ease: [0.5, 0.71, 1, 1.5],
+                    duration: 1,
+                    delay: 0.5,
+                    ease: [0.5, 0.71, 1, 1.5]
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }} 
+                whileHover={{ scale: 1.07}} 
                 className='ani3Container2'>
       <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
       seguidores para o instagram não paga as contas.
@@ -121,14 +121,14 @@ function handleClick (){
 
       </motion.div>
 
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
                 transition={{
-                    duration: 5,
-                    delay: 12,
-                    ease: [0.5, 0.71, 1, 1.5],
+                    duration: 1,
+                    delay: 0.5,
+                    ease: [0.5, 0.71, 1, 1.5]
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }} 
+                whileHover={{ scale: 1.07}} 
                 className='ani4Container2'>
       <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
       isso pode fazer seu negócio crescer, e você vai entender o porque!
