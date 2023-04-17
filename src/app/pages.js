@@ -82,18 +82,17 @@ function handleClick (){
 <div className='container2Line'/>
 <div className='lineInvisible' style={{height:30}}/>
         <div className='ball'/>  <div className='container2Text'>
-          <h3>Se a resposta for não, o método de marketing da <p/>
-                V4 Company pode te ajudar.</h3></div>
+          <h3>Se você não tem clareza nessa resposta, nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.</h3></div>
         <div className='lineInvisible' style={{height:150}}/>
         <div className='ball' /><div className='container2Text'>
-          <h3>Nosso foco principal é garantir que você venda mais e nunca pare de crescer.</h3></div>
+          <h3>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.</h3></div>
         <div className='lineInvisible'style={{height:155}}/>
         <div className='ball'/><div className='container2Text'>
-          <h3>Sabemos que a velha forma de fazer marketing focada em atrair seguidores no Instagram não paga as contas.</h3></div>
+          <h3>Sabemos também que a velha forma de fazer marketing focado em seguidores para o instagram não paga as contas.</h3></div>
         <div className='lineInvisible'style={{height:160}}/><div className='ball' />
         <div className='container2Text'>
-          <h3>Agora, adotar o “novo marketing” e transformar seu negócio numa máquina de fazer dinheiro pela internet,
-           isso pode fazer o seu negócio crescer. 
+          <h3>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys,
+             isso pode fazer seu negócio crescer, e você vai entender o porque!
 </h3></div>
           </div> 
      </div>
@@ -104,26 +103,36 @@ function handleClick (){
 
   
    <div   className='container3-4'>
-   <div className='containerTitle3-4'>
-   <h2 >Esses clientes decidiram investir em marketing digital conosco</h2>
+   <h2 className='text2Main' >Esses clientes decidiram investir em marketing digital conosco</h2>
+      <div className='container3-4Text'>
+      <div className='ani1Container2'>
+      <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
+</h3>
+
+      </div>
+
+      <div className='ani2Container2'>
+      <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
+</h3>
+
+      </div>
+
+      <div className='ani3Container2'>
+      <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
+      seguidores para o instagram não paga as contas.
+</h3>
+
+      </div>
+
+     
+               <div className='ani4Container2'>
+      <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
+      isso pode fazer seu negócio crescer, e você vai entender o porque!
+</h3>
+      </div>
+   
    </div>
-       <div className='containerSub3-4'>
-
-       <div className='containerText3-4'>
-      <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
-      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
-         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
-         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         <span/> 
-         <h3>Lebes ultrapassou 160% da sua meta de vendas no varejo com um <p/>processo usando o WhatsApp</h3>
-      <h4>Através do Método V4, em menos de 3 meses, a rede varejista digitalizou toda a sua <p/>operação nas lojas físicas,
-         capacitou os gerentes na utilização de uma plataforma que<p/> atrai clientes, 
-         além de rodar campanhas de marketing mais assertivas, que resultaram <p/>em 160% da meta batida.</h4>
-         </div>
-         <div className='containerImg3-4'> <Image src={weed} alt=''style={{height:240, width:270}}/>
-
-         </div>
-       </div>
+      
         
            
          </div> 
@@ -341,6 +350,12 @@ function handleClick (){
     </div>
   </div>
   </div>
+  <div className='container6'>
+          <h3 className='text6'> Hoje você pode receber nossos serviços completos de marketing</h3>
+          <h2 className='text6'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
+          <div className='containerButton3'>
+          <button  onClick={handleClick}  className='raise'>ENTRAR EM CONTATO AGORA</button>
+          </div></div>
         <div className='container9'>
           <h3 className='text9'>DEPOIMENTOS</h3>
           <h2 className='text9'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
