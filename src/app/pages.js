@@ -75,69 +75,32 @@ function handleClick (){
      
 
       <div className='container2'>
-        
-      <h2 className='text2Main' >O que falta para você faturar mais atualmente?</h2>
-      <div className='container2Text'>
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
-                transition={{
-                    duration: 1,
-                    delay: 0.5,
-                    ease: [0.5, 0.71, 1, 1.5]
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.07}} 
-                className='ani1Container2'>
-      <h3 className='text2'>Se você não tem clareza nessa resposta, nosso metodo testado e 
-      validado para restaurantes e deliverys pode te ajudar.
-</h3>
-      </motion.div>
-
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
-                transition={{
-                    duration: 1,
-                    delay: 0.5,
-                    ease: [0.5, 0.71, 1, 1.5]
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.07}} 
-                className='ani2Container2'>
-      <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
-</h3>
-
-      </motion.div>
-
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
-                transition={{
-                    duration: 1,
-                    delay: 0.5,
-                    ease: [0.5, 0.71, 1, 1.5]
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.07}} 
-                className='ani3Container2'>
-      <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
-      seguidores para o instagram não paga as contas.
-</h3>
-
-      </motion.div>
-
-      <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale:1  }}
-                transition={{
-                    duration: 1,
-                    delay: 0.5,
-                    ease: [0.5, 0.71, 1, 1.5]
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.07}} 
-                className='ani4Container2'>
-      <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
-      isso pode fazer seu negócio crescer, e você vai entender o porque!
-
-
-</h3>
-      </motion.div>
+             <div className='container2Sub'>
+      <h2>VOCÊ ESTÁ SATISFEITO<p/> COM O SEU FATURAMENTO?</h2>
+         
+<div className='container2SubLine'>
+<div className='container2Line'/>
+<div className='lineInvisible' style={{height:30}}/>
+        <div className='ball'/>  <div className='container2Text'>
+          <h3>Se a resposta for não, o método de marketing da <p/>
+                V4 Company pode te ajudar.</h3></div>
+        <div className='lineInvisible' style={{height:150}}/>
+        <div className='ball' /><div className='container2Text'>
+          <h3>Nosso foco principal é garantir que você venda mais e nunca pare de crescer.</h3></div>
+        <div className='lineInvisible'style={{height:155}}/>
+        <div className='ball'/><div className='container2Text'>
+          <h3>Sabemos que a velha forma de fazer marketing focada em atrair seguidores no Instagram não paga as contas.</h3></div>
+        <div className='lineInvisible'style={{height:160}}/><div className='ball' />
+        <div className='container2Text'>
+          <h3>Agora, adotar o “novo marketing” e transformar seu negócio numa máquina de fazer dinheiro pela internet,
+           isso pode fazer o seu negócio crescer. 
+</h3></div>
+          </div> 
      </div>
-   <div className='container2Button'> <button onClick={handleClick} class='raise'>Nós vamos te ajudar</button></div></div>
+     
+    
+   
+   </div>
 
   
    <div   className='container3-4'>
