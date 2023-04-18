@@ -26,6 +26,11 @@ import ross from '../../assets/ross.png'
 import google from '../../assets/google.svg'
 import stars from '../../assets/stars.svg'
 import verify from '../../assets/verify.svg'
+
+import gif1 from '../../assets/gif1.gif'
+import gif2 from '../../assets/gif2.gif'
+import gif3 from '../../assets/gif3.gif'
+import gif4 from '../../assets/gif4.gif'
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -103,30 +108,37 @@ function handleClick (){
    <h2 className='text2Main' >Esses clientes decidiram investir em marketing digital conosco</h2>
    <h3 className='text2Sub'>Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
       <div className='container3-4Text'>
+
       <div className='ani1Container2'>
-      <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
-</h3>
+      <Image src={gif1} alt='' className='gif'/>
+      <div className='aniSubBox'>
+      <h3 className='text2'> Se você não tem clareza nessa resposta, nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.
+      </h3>
+      </div>
 
       </div>
 
-      <div className='ani2Container2'>
-      <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
-</h3>
+      <div className='ani1Container2'>
+      <Image src={gif2} alt='' className='gif'/>
+      <div className='aniSubBox'> <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
+</h3></div>
 
       </div>
 
-      <div className='ani3Container2'>
-      <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
+      <div className='ani1Container2'>
+        <Image src={gif3} alt='' className='gif'/>
+        <div className='aniSubBox'> <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
       seguidores para o instagram não paga as contas.
-</h3>
+</h3></div>
 
       </div>
 
      
-               <div className='ani4Container2'>
-      <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
+               <div className='ani1Container2'>
+               <div  className='gif4'/>
+      <div className='aniSubBox'> <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
       isso pode fazer seu negócio crescer, e você vai entender o porque!
-</h3>
+</h3></div>
       </div>
    
    </div>

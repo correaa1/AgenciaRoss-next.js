@@ -641,58 +641,35 @@ h2.text2Main{
   padding: 100px;
   width: 100%;
   text-align:center;
-	
+	z-index:2;
 }
 .ani1Container2{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  margin:10px;
   border:solid 4px #19bc8b;
   border-radius: 15px;
-  width: 35%;
-  height:250px;
+  margin:10px;
+  width: 550px;
+  height:400px;
 }
-.ani2Container2{
-  border-radius: 15px;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  margin:10px;
-  border:solid 4px #19bc8b;
-  width: 35%;
-  height:250px;
-
+.gif{
+  height:393px;
+   width:100%;
+   border-radius: 10px;
 }
-.ani3Container2{
-  border-radius: 15px;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  margin:10px;
-  border:solid 4px #19bc8b;
-  width: 35%;
-  height:250px;
-
+.gif4{
+  height:393px;
+  width:100%;
+  border-radius: 10px;
+  background-image: url('../../../assets/gif4.gif');
+  background-size:cover;
 }
-.ani4Container2{
-  border-radius: 15px;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  margin:10px;
-  border:solid 4px #19bc8b;
-  width: 35%;
-  height:250px;
-
+.aniSubBox{
+  width:250px;
+  height:150px;
+  position: absolute;
 }
 .containerText3-4 h3{
   padding-top:30px
