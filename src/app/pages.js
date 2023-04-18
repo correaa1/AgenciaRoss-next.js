@@ -20,7 +20,7 @@ import img10 from '../../assets/img10.png'
 import img11 from '../../assets/img11.png'
 import img12 from '../../assets/img12.png'
 import weed from '../../assets/weed.png'
-  import Capa from '../../assets/Capa.png'
+  import imgCapa from '../../assets/imgCapa.png'
 import logoRoss from '../../assets/logoRoss.png'
 import ross from '../../assets/ross.png'
 import google from '../../assets/google.svg'
@@ -42,7 +42,7 @@ function handleClick (){
    
   <div id='container'> 
   <div className='fixedLogo'>
-      <Image  src={ross} style={{height:70, width:70}} alt=''/>
+      <Image className='imgLogoFixed' src={ross} style={{height:70, width:70}} alt=''/> <h2>Ross</h2>
       </div>
     <div className='containerCapa'>
     
@@ -51,15 +51,12 @@ function handleClick (){
     <div className="sp-container">
 	<div  className="sp-content">       
         <h2 className="frame-5">
-       
-        <span className='iconCapa'>  
-        <Image src={logoRoss} alt='' style={{height:200, width:200,paddingTop:20}}/>   </span>
                <span > <h2 className='textCapa'>Marketing digital que funciona </h2> </span>
                <span> <h4 className='textCapa'> Descubra o Método BASE que já ajudou dezenas de restaurantes
                 e deliverys a superaram a meta de vendas.</h4></span>     
                <div className='containerCapa2'>   <span><Form/></span>
         <span className='imgCapa'>
-        <Image className='imgCapa '  alt=''quality={100} loading="lazy"  src={Capa}width='750' height='750'   />
+        <Image className='imgCapa '  alt=''quality={100} loading="lazy"  src={imgCapa}width='750' height='750'   />
       
         </span>      </div>
 		</h2></div>

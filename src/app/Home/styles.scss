@@ -16,7 +16,13 @@
       transform-origin: 0%;
       z-index: 2147483647;
     }
-    
+    .fixedLogo h2{
+      margin-right:20px
+    }
+    .imgLogoFixed{
+     position:relative;
+     left:20px
+    }
     .fixedLogo{
       position: fixed;
       width:100%;
@@ -27,8 +33,9 @@
       align-items:center;
       justify-content:center;
       display:flex   
+      
      }
-    
+   
 @media screen and (max-width:600px){
   body, aside {width: 600px;text-align: center;}
 }
@@ -60,7 +67,7 @@
   justify-content: center;
   background: rgba(15,33,36,1);
   background: linear-gradient(180deg, rgba(15,33,36,1) 0%, rgba(25,65,82,1) 28%, rgba(15,33,36,1)100%);
-
+  padding:100px;
   width: 100%;
   
 }
