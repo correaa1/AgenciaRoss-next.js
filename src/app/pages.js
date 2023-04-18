@@ -110,7 +110,7 @@ function handleClick (){
       <div className='container3-4Text'>
 
       <div className='ani1Container2'>
-      <Image src={gif1} alt='' className='gif'/>
+      <div className='gif1'/>
       <div className='aniSubBox'>
       <h3 className='text2'> Se você não tem clareza nessa resposta, nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.
       </h3>
@@ -119,14 +119,14 @@ function handleClick (){
       </div>
 
       <div className='ani1Container2'>
-      <Image src={gif2} alt='' className='gif'/>
+      <div className='gif2'/>
       <div className='aniSubBox'> <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
 </h3></div>
 
       </div>
 
       <div className='ani1Container2'>
-        <Image src={gif3} alt='' className='gif'/>
+        <div className='gif3'/>
         <div className='aniSubBox'> <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
       seguidores para o instagram não paga as contas.
 </h3></div>
