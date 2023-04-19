@@ -59,7 +59,7 @@ function handleClick (){
                <span > <h2 className='textCapa'>Marketing digital que funciona </h2> </span>
                <span> <h4 className='textCapa'> Descubra o Método BASE que já ajudou dezenas de restaurantes
                 e deliverys a superaram a meta de vendas.</h4></span>     
-               <div className='containerCapa2'>   <span><Form/></span>
+               <div className='containerSubCapa'>   <span><Form/></span>
         <span className='imgCapa'>
         <Image className='imgCapa '  alt=''quality={100} loading="lazy"  src={imgCapa}width='750' height='750'   />
       
@@ -104,53 +104,56 @@ function handleClick (){
    </div>
 
   
-   <div   className='container3-4'>
-   <h2 className='text2Main' >Esses clientes decidiram investir em marketing digital conosco</h2>
-   <h3 className='text2Sub'>Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
-      <div className='container3-4Text'>
+   <div   className='container3'>
+   <h2 className='text3Main' >Esses clientes decidiram investir em marketing digital conosco</h2>
+   <h3 className='text3Sub'>Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
+      <div className='container3Text'>
 
-      <div className='ani1Container2'>
+      <div className='boxContainer3'>
       <div className='gif1'/>
-      <div className='aniSubBox'>
-      <h3 className='text2'> Se você não tem clareza nessa resposta, nosso metodo testado e validado para restaurantes e deliverys pode te ajudar.
-      </h3>
+      <div className='subBox'>
+      <h3 > 15k+ em 1 mês  </h3>
+      <h2>Agência Ross</h2>
       </div>
 
       </div>
 
-      <div className='ani1Container2'>
+      <div className='boxContainer3'>
       <div className='gif2'/>
-      <div className='aniSubBox'> <h3 className='text2'>Sabemos que você não quer ficar refém das taxas do ifood, sempre pagando pelo cliente que já é seu.
-</h3></div>
+      <div className='subBox'> 
+      <h3 >14k+ em 1 mês</h3>
+      <h2>Agência Ross</h2>
+      </div>
+      
 
       </div>
 
-      <div className='ani1Container2'>
+      <div className='boxContainer3'>
         <div className='gif3'/>
-        <div className='aniSubBox'> <h3 className='text2'>Sabemos também que a velha forma de fazer marketing focado em 
-      seguidores para o instagram não paga as contas.
-</h3></div>
-
+       <div className='subBox'> 
+       <h3 >14k+ em 1 mês</h3>
+       <h2>Agência Ross</h2>
+       </div>
       </div>
 
      
-               <div className='ani1Container2'>
+               <div className='boxContainer3'>
                <div  className='gif4'/>
-      <div className='aniSubBox'> <h3 className='text2'>Agora, adotar um metodo de vendas validado e feito para restaurantes e deliverys, 
-      isso pode fazer seu negócio crescer, e você vai entender o porque!
-</h3></div>
+       <div className='subBox'> 
+       <h3>14k+ em 1 mês</h3>
+       <h2>Agência Ross</h2>
+       </div>
       </div>
    
    </div>
-      
-        
+   
            
          </div> 
      
 
      {/*container que contem a parte da equipe da empresa*/}
-      <div className='container3'>
-          <h2 className='text3'>Quem somos?</h2>
+      <div className='containerMainEquipe'>
+          <h2>Quem somos?</h2>
       <h3>Um time de especialistas prontos para fazer seu restaurante decolar!
         </h3>
        
@@ -329,8 +332,8 @@ function handleClick (){
     sem pagar taxas para os apps de comida.</h3>
     <h3 className='text4'> E, nisso, o metodo B.A.S.E pode te ajudar.</h3>
    
-    <div className='container5'>
-    <div className='spaceContainer5'>
+    <div className='container4Sub'>
+    <div className='boxContainer4'>
     <Image src={client} alt=''style={{height:75, width:75,padding:10}}/>
     <h2 className='text5'>Base <p/>Forte</h2>
     <h4 className='text5'> Chamamos o seu cliente pelo nome no whatsapp,
@@ -338,21 +341,21 @@ function handleClick (){
   
     </div>
       
-    <div className='spaceContainer5'> 
+    <div className='boxContainer4'> 
     <Image src={ads} alt=''style={{height:75, width:75,padding:10}}/>
     <h2 className='text5'>Anuncios <p/>Perseguidores </h2> <h4 className='text5'>Buscamos o melhor cliente para seu negócio.
      Aquele que está procurando o que a sua empresa tem a oferecer.
      </h4>
     </div>
 
-    <div className='spaceContainer5'> 
+    <div className='boxContainer4'> 
     <Image src={media} alt=''style={{height:75, width:75,padding:10}}/>
     <h2 className='text5'>Social Media<p/> Impactante </h2> <h4 className='text5'> Os clientes comem com os olhos! 
     Tenha um desing profissional em toda experiência da sua marca e em cada posicionamento da sua empresa.
     </h4>
     </div>
 
-    <div className='spaceContainer5'> 
+    <div className='boxContainer4'> 
     <Image src={estrategia} alt=''style={{height:75, width:75,padding:10}}/>
     <h2 className='text5'>Estratégias<p/> Personalizadas</h2>
     <h4 className='text5'> Definimos as estrategias certas para cada canal de venda do seu negócio,
@@ -360,26 +363,26 @@ function handleClick (){
     </div>
   </div>
   </div>
-  <div className='container6'>
-          <h3 className='text6'> Hoje você pode receber nossos serviços completos de marketing</h3>
-          <h2 className='text6'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
+  <div className='container5'>
+          <h3 className='text5'> Hoje você pode receber nossos serviços completos de marketing</h3>
+          <h2 className='text5'>PELO PREÇO DE UM FUNCIONÁRIO!</h2>
           <div className='containerButton3'>
           <button  onClick={handleClick}  className='raise'>ENTRAR EM CONTATO AGORA</button>
           </div></div>
-        <div className='container9'>
-          <h3 className='text9'>DEPOIMENTOS</h3>
-          <h2 className='text9'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
+        <div className='container6'>
+          <h3 className='text6'>DEPOIMENTOS</h3>
+          <h2 className='text6'>O QUE OS NOSSOS CLIENTES DIZEM:</h2>
           </div>  
-          <div className='container10'>
-          <div className='cardFinal'>
-            <div className='cardFinalSub1'>
-            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+          <div className='container7'>
+          <div className='boxContainer7'>
+            <div className='boxTop7'>
+            <div className='boxLeft7'><Image className='imgClient' src={weed} alt=''/>
             <h3>Bruno Correa</h3>
             </div>
-             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+             <div className='boxRight7'> <Image className='imgGoogle' src={google} alt=''/></div>
             </div>
 
-           <div className='cardFinalSub2'>
+           <div className='boxDown'>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
@@ -392,15 +395,15 @@ A V4 me surpreendeu muito com suas métricas e processos totalmente alinhados co
  da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!.</p> </div>      
           </div>   
 
-          <div className='cardFinal'>
-            <div className='cardFinalSub1'>
-            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+          <div className='boxContainer7'>
+            <div className='boxTop7'>
+            <div className='boxLeft7'><Image className='imgClient' src={weed} alt=''/>
             <h3>Bruno Correa</h3>
             </div>
-             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+             <div className='boxRight7'> <Image className='imgGoogle' src={google} alt=''/></div>
             </div>
 
-           <div className='cardFinalSub2'>
+           <div className='boxDown'>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
@@ -413,15 +416,15 @@ A V4 me surpreendeu muito com suas métricas e processos totalmente alinhados co
  da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!.</p> </div>      
           </div>
 
-          <div className='cardFinal'>
-            <div className='cardFinalSub1'>
-            <div className='cardFinalSub1Left'><Image className='imgClient' src={weed} alt=''/>
+          <div className='boxContainer7'>
+            <div className='boxTop7'>
+            <div className='boxLeft7'><Image className='imgClient' src={weed} alt=''/>
             <h3>Bruno Correa</h3>
             </div>
-             <div className='cardFinalSub1Right'> <Image className='imgGoogle' src={google} alt=''/></div>
+             <div className='boxRight7'> <Image className='imgGoogle' src={google} alt=''/></div>
             </div>
 
-           <div className='cardFinalSub2'>
+           <div className='boxDown'>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
             <Image src={stars} alt=''/>
