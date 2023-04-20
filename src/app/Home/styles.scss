@@ -36,29 +36,46 @@
       
      }
    
+@media   screen and  (max-width:1024px){
+  body,div {text-align: center;}
+  
+}
 @media screen and (max-width:600px){
-  body, aside {width: 600px;text-align: center;}
+  .imgCapa {height:0px;width:0px}
 }
 @media screen and (max-width:768px){
-   body, aside {width: 768px;text-align: center;}
- }
-
- @media screen and (max-width:600px){
-  div.card {width: 293px;text-align: center;}
+  .imgCapa {height:0px;width:0px}
 }
-@media screen and (max-width:768px){
- div.card {width: 293px;text-align: center;padding-right: 40px;}
-} 
-
-
-   
-
-@media screen and (max-width:600px){
-  div.container3 {width: 100%; padding: 30px ;}
+//container2 responsive
+@media   screen and (max-width:1024px){
+  div.container2 .container2SubLine {margin:0px;width: 0px;}
 }
-@media screen and (max-width:768px){
-   div.container3 {width: 100%;padding: 30px}
- }
+@media   screen and  (max-width:1024px) {
+  div.container2 .container2Text {margin-left: 0px; padding-left:0px;width: 300px; text-align: center;}
+}
+@media   screen and  (max-width:1024px) {
+  div.container2 .container2Sub  {align-items: center;margin:0px}
+}
+@media   screen and  (max-width:1024px) {
+  div.container2 .container2Sub h2 {margin:0px}
+}
+@media   screen and  (max-width:1024px){
+  div.container2 .ball {width: 0px;height: 0px;}
+}
+
+//responsive container 3
+@media   screen and  (max-width:1024px){
+  div.container3 .container3Text {width: 600px;height: 0px;}
+}
+@media   screen and  (max-width:1024px){
+div.container3 .subBox  {margin:5px}
+}
+//responsive container 4
+
+@media   screen and  (max-width:1024px){
+  div.container4   {padding-top:550px;flex-direction: unset;}
+  }
+
 
 .containerCapa{
   display: flex;
@@ -71,7 +88,7 @@
   width: 100%;
   
 }
-  
+
 .containerForm{
   height: 720px;
   padding-top: 100px;
@@ -510,7 +527,7 @@ code {
   height: 551px;
   width:3px;
   align-items:center;
-  margin-left:95px;;
+  
   background: rgba(19,34,40,1);
   background: linear-gradient(180deg, rgba(19,34,40,1) 0%, rgb(35, 114, 148)50%, rgba(25,65,82,1) 100%);
   margin: 30px 118px 0;
@@ -579,7 +596,7 @@ h2.text3Main{
   text-align:center;
 	z-index:2;
 }
-.boxContainer3{
+.box1Container3{
   display: flex;
   flex-wrap:wrap;
   align-items: flex-end;
@@ -588,41 +605,47 @@ h2.text3Main{
   margin:10px;
   width: 550px;
   height:400px;
-}
-.gif{
-  height:393px;
-   width:100%;
-   border-radius: 10px;
-}
-.gif1{
-  height:393px;
-  width:100%;
-  border-radius: 10px;
   background-image: url('../../../assets/gif1.gif');
-  background-size:cover;
+  background-size:cover ;
 }
-.gif2{
-  height:393px;
-  width:100%;
-  border-radius: 10px;
+.box2Container3{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-end;
+  border:solid 4px #19bc8b;
+  border-radius: 15px;
+  margin:10px;
+  width: 550px;
+  height:400px;
   background-image: url('../../../assets/gif2.gif');
-  background-size:cover;
+  background-size:cover ;
 }
-.gif3{
-  height:393px;
-  width:100%;
-  border-radius: 10px;
+.box3Container3{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-end;
+  border:solid 4px #19bc8b;
+  border-radius: 15px;
+  margin:10px;
+  width: 550px;
+  height:400px;
   background-image: url('../../../assets/gif3.gif');
-  background-size:cover;
+  background-size:cover ;
 }
-.gif4{
-  height:393px;
-  width:100%;
-  border-radius: 10px;
+.box4Container3{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-end;
+  border:solid 4px #19bc8b;
+  border-radius: 15px;
+  margin:10px;
+  width: 550px;
+  height:400px;
   background-image: url('../../../assets/gif4.gif');
-  background-size:cover;
+  background-size:cover ;
 }
-.boxContainer3 h3{
+
+.subBox h3{
   color: #19bc8b;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
@@ -919,7 +942,8 @@ h3.textTime{
     background: rgba(19,34,40,1);
     background: linear-gradient(180deg, rgba(19,34,40,1) 0%, rgba(19,34,40,1) 48%, rgba(25,65,82,1) 100%);
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
     padding:100px;

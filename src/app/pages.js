@@ -109,8 +109,7 @@ function handleClick (){
    <h3 className='text3Sub'>Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
       <div className='container3Text'>
 
-      <div className='boxContainer3'>
-      <div className='gif1'/>
+      <div className='box1Container3'>
       <div className='subBox'>
       <h3 > 15k+ em 1 mês  </h3>
       <h2>Agência Ross</h2>
@@ -118,8 +117,7 @@ function handleClick (){
 
       </div>
 
-      <div className='boxContainer3'>
-      <div className='gif2'/>
+      <div className='box2Container3'>
       <div className='subBox'> 
       <h3 >14k+ em 1 mês</h3>
       <h2>Agência Ross</h2>
@@ -128,8 +126,7 @@ function handleClick (){
 
       </div>
 
-      <div className='boxContainer3'>
-        <div className='gif3'/>
+      <div className='box3Container3'>
        <div className='subBox'> 
        <h3 >14k+ em 1 mês</h3>
        <h2>Agência Ross</h2>
@@ -137,8 +134,7 @@ function handleClick (){
       </div>
 
      
-               <div className='boxContainer3'>
-               <div  className='gif4'/>
+               <div className='box4Container3'>
        <div className='subBox'> 
        <h3>14k+ em 1 mês</h3>
        <h2>Agência Ross</h2>
