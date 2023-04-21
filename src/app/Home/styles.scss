@@ -37,15 +37,22 @@
      }
    
 @media   screen and  (max-width:1024px){
-  body,div {text-align: center;}
+  body,div {text-align: center; }
   
 }
-@media screen and (max-width:600px){
-  .imgCapa {height:0px;width:0px}
+
+//container capa
+@media screen and (max-width:600px) and (max-width:768px){
+  .imgCapa {display:none}
 }
-@media screen and (max-width:768px){
-  .imgCapa {height:0px;width:0px}
+@media   screen and (max-width:768px){
+ .containerCapa h4.textCapa {font-size: 13px;width: 80%;}
 }
+@media   screen and (max-width:768px){
+  .containerCapa span {flex-direction: unset;}
+ }
+
+
 //container2 responsive
 @media   screen and (max-width:1024px){
   div.container2 .container2SubLine {margin:0px;width: 0px;}
@@ -75,8 +82,21 @@ div.container3 .subBox  {margin:5px}
 @media   screen and  (max-width:1024px){
   div.container4   {padding-top:550px;flex-direction: unset;}
   }
-
-
+  
+//responsive container 5 button only
+@media   screen and  (max-width:1024px){
+ .container5 .containerButton3    {width: 500px;}
+  }
+//responsive container 7
+@media   screen and  (max-width:1024px){
+  .container7    {flex-direction: column;}
+   }
+   @media   screen and  (max-width:1024px){
+    .container7 .boxContainer7   {width: 380px;}
+     }
+     @media   screen and  (max-width:1024px){
+      .container7 .boxDown   {text-align: left;padding:10px}
+       }
 .containerCapa{
   display: flex;
   flex-direction: row-reverse;
@@ -156,7 +176,7 @@ font-family: 'Oxygen', sans-serif;
       position: relative;
      
       font-size: 24px;
-      width: 100%;
+      width: 500px;
       text-align: center;
       color: transparent;
       

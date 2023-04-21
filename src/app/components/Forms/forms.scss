@@ -1,14 +1,20 @@
 
 
-
+@media   screen and (max-width:768px){
+  form {width: 300px;}
+}
+@media   screen and  (max-width:768px){
+  .containerTextForms h2.textForms   {font-size: 11px;}
+  }
+  @media   screen and  (max-width:768px){
+   .containerInput input  {font-size: 13px;}
+    }
    form {
      display: inline-block;
      background:rgba(24,24,24,0.3);
      border-radius: 17px;
      border-color: #838383;
      position: relative;
-   
-     width: 515px;
      border-width: 1px;
     padding: 10px;
    }
@@ -21,11 +27,6 @@
      border-bottom: 1px solid rgb(35, 11, 122);
    }
    
-   .form {
-
-     max-width: 400px;
-     margin: 0 auto;
-   }
    
    p.formsP {
      color: #bf1650;
