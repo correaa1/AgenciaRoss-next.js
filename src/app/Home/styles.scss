@@ -42,7 +42,7 @@
 }
 
 //container capa
-@media screen and (max-width:600px) and (max-width:768px){
+@media screen  and (max-width:1024px){
   .imgCapa {display:none}
 }
 @media   screen and (max-width:768px){
@@ -54,27 +54,27 @@
 
 
 //container2 responsive
-@media   screen and (max-width:1024px){
+@media   screen and (max-width:768px){
   div.container2 .container2SubLine {margin:0px;width: 0px;}
 }
-@media   screen and  (max-width:1024px) {
+@media   screen and  (max-width:768px) {
   div.container2 .container2Text {margin-left: 0px; padding-left:0px;width: 300px; text-align: center;}
 }
-@media   screen and  (max-width:1024px) {
+@media   screen and  (max-width:768px) {
   div.container2 .container2Sub  {align-items: center;margin:0px}
 }
-@media   screen and  (max-width:1024px) {
+@media   screen and  (max-width:768px) {
   div.container2 .container2Sub h2 {margin:0px}
 }
-@media   screen and  (max-width:1024px){
+@media   screen and  (max-width:768px){
   div.container2 .ball {width: 0px;height: 0px;}
 }
 
 //responsive container 3
-@media   screen and  (max-width:1024px){
+@media   screen and  (max-width:768px){
   div.container3 .container3Text {width: 600px;height: 0px;}
 }
-@media   screen and  (max-width:1024px){
+@media   screen and  (max-width:768px){
 div.container3 .subBox  {margin:5px}
 }
 //responsive container 4
@@ -88,15 +88,19 @@ div.container3 .subBox  {margin:5px}
  .container5 .containerButton3    {width: 500px;}
   }
 //responsive container 7
-@media   screen and  (max-width:1024px){
+@media   screen and  (max-width:768px){
   .container7    {flex-direction: column;}
    }
+   @media   screen and (min-width:768px) and  (max-width:1420px){
+    .container7   {flex-wrap: wrap;}
+     }
    @media   screen and  (max-width:1024px){
     .container7 .boxContainer7   {width: 380px;}
      }
      @media   screen and  (max-width:1024px){
       .container7 .boxDown   {text-align: left;padding:10px}
        }
+
 .containerCapa{
   display: flex;
   flex-direction: row-reverse;
