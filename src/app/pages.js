@@ -105,8 +105,8 @@ function handleClick (){
 
   
    <div   className='container3'>
-   <h2 className='text3Main' >Esses clientes decidiram investir em marketing digital conosco</h2>
-   <h3 className='text3Sub'>Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
+   <h2  >Esses clientes decidiram investir em marketing digital conosco</h2>
+   <h3 >Aplicando nosso método B.A.S.E., geralmente os resultados são visiveis já no primeiro mês.</h3>
       <div className='container3Text'>
 
       <div className='box1Container3'>
